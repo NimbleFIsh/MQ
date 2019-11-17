@@ -1,18 +1,27 @@
 body {
   margin: 0;
-  display: flex;
+  padding-top: 43px;
+  padding-bottom: 67px;
 }
 
-.main_header {
-  flex-grow: 1;
-  text-align: center;
+.header {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
 }
 
 .main_header_logo {
+  margin-bottom: 16px;
   height: 24px;
   width: 78px;
 }
 
 .main_title {
+  display: block;
   background-color: #000000;
+  width: 100%;
+}
+
+.main_title_text_container {
+  display: flex;
 }
