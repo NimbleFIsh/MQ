@@ -1,3 +1,34 @@
+/* Fonts input */
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url("https://github.com/NimbleFIsh/MQ/tree/master/fonts/OpenSans-Regular.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans-Regular-2;
+  src: url("https://github.com/NimbleFIsh/MQ/tree/master/fonts/OpenSans-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url("https://github.com/NimbleFIsh/MQ/tree/master/fonts/OpenSans-Bold.woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans-Bold-2;
+  src: url("https://github.com/NimbleFIsh/MQ/tree/master/fonts/OpenSans-Bold.woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Text-color classes */
 .color_purple-1 {
   /* #5e42b0 */
   color: rgb(94, 66, 176);
@@ -31,4 +62,9 @@
 .color-text-3 {
   /* #a496ca */
   color: rgb(164, 150, 202);
+}
+
+/* Global classes */
+.text-big {
+  text-transform: uppercase;
 }
