@@ -5,8 +5,16 @@ body {
 }
 
 .header {
-  display: flex;
   width: 100vw;
+
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/football_1280.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.main_header {
+  display: flex;
   justify-content: center;
 }
 
@@ -17,11 +25,33 @@ body {
 }
 
 .main_title {
-  display: block;
+  display: flex;
   background-color: #000000;
   width: 100%;
+  justify-content: center;
+
+  padding-top: 295px;
+  padding-bottom: 220px;
 }
 
 .main_title_text_container {
-  display: flex;
+  font-family: OpenSans-Bold, sans-serif;
+
+  font-size: 60px;
+  display: inherit;
+  flex-direction: column;
+  width: 79.7395833%;
+}
+
+.left {
+  display: inherit;
+  justify-content: flex-start;
+  margin: 0;
+  padding-bottom: 27px;
+}
+
+.right {
+  display: inherit;
+  justify-content: flex-end;
+  margin: 0;
 }
