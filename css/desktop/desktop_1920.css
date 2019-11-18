@@ -1,15 +1,22 @@
 body {
   margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 957px;
+
+  background-image: url(https://github.com/NimbleFIsh/MQ/blob/master/img/football_1920.jpg?raw=true);
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center;
+
   padding-top: 43px;
   padding-bottom: 67px;
 }
 
-.header {
-  width: 100vw;
-
-  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/football_1280.jpg");
-  background-size: cover;
-  background-position: center;
+.header:before {
+  content: '';
 
 }
 
@@ -26,7 +33,6 @@ body {
 
 .main_title {
   display: flex;
-  background-color: #000000;
   width: 100%;
   justify-content: center;
 
@@ -37,10 +43,11 @@ body {
 .main_title_text_container {
   font-family: OpenSans-Bold, sans-serif;
 
-  font-size: 60px;
+  height: 159px;
   display: inherit;
   flex-direction: column;
   width: 79.7395833%;
+  font-size: 4.6875vw;
 }
 
 .left {
@@ -48,10 +55,12 @@ body {
   justify-content: flex-start;
   margin: 0;
   padding-bottom: 27px;
+  font-size: inherit;
 }
 
 .right {
   display: inherit;
   justify-content: flex-end;
   margin: 0;
+  font-size: inherit;
 }
