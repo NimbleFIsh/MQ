@@ -7,17 +7,12 @@ body {
   height: 957px;
 
   background-image: url(https://github.com/NimbleFIsh/MQ/blob/master/img/football_1920.jpg?raw=true);
-  background-color: rgb(0, 0, 0);
   background-size: cover;
+  background-color: rgb(0, 0, 0);
   background-position: center;
 
   padding-top: 43px;
   padding-bottom: 67px;
-}
-
-.header:before {
-  content: '';
-
 }
 
 .main_header {
