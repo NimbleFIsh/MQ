@@ -17,20 +17,20 @@
 @font-face {
   font-family: OpenSans-Bold;
   src: url("https://github.com/NimbleFIsh/MQ/tree/master/fonts/OpenSans-Bold.woff");
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: OpenSans-Bold-2;
   src: url("https://github.com/NimbleFIsh/MQ/tree/master/fonts/OpenSans-Bold.woff2");
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }
 
 /* Text-color classes */
 .color_purple-1 {
-  /* #0a0e34 */
+  /* #5e42b0 */
   color: rgb(94, 66, 176);
 }
 
