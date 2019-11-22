@@ -1,2 +1,68 @@
 @import "parts/header.css";
 
+
+.main {
+  display: flex;
+  width: 79.7395833vw;
+  align-items: center;
+  margin: auto;
+}
+
+.content {
+  width: inherit;
+  display: inherit;
+  flex-direction: column;
+}
+
+.athlets {
+  width: inherit;
+  display: inherit;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.athlets_title, .players_title {
+  text-transform: uppercase;
+  font-size: 4.16666667vw;
+  color: #e7e7e7;
+}
+
+.athlets_connection {
+
+}
+
+.athlets_connection_title_1 {
+
+}
+
+.athlets_collaboration_text {
+
+}
+
+.athlets_collaboration {
+
+}
+
+.athlets_collaboration_title_1 {
+
+}
+
+.athlets_collaboration_text {
+
+}
+
+.athlets_growth {
+
+}
+
+.athlets_growth_title_1 {
+
+}
+
+.athlets_growth_text {
+
+}
+
+.players {
+
+}
