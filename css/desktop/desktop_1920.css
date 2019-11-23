@@ -2,83 +2,79 @@
 
 
 .main {
-  display: flex;
-  width: 79.7395833vw;
-  align-items: center;
-  margin: auto;
+  height: 46.1458333vw;
+  width: 100vw;
 }
 
-.content {
-  width: inherit;
-  display: inherit;
-  flex-direction: column;
+.athlets_padding {
+  padding-right: 9.375vw;
+  padding-left: 9.375vw;
+}
+
+.athlets_content-1 {
+  height: 21.6145833vw;
+  width: 100vw;
+  background-color: #ffffff;
+  padding-top: 5.67708333vw;
+}
+
+.athlets_content-2 {
+  height: 12.96875vw;
+  width: 100vw;
+  background-color: #f6f4fa;
+
+  padding-top: 3.17708333vw;
+}
+
+.athlets_content-3 {
+  height: 11.5625vw;
+  width: 100vw;
+  background-color: #5e42b0;
+
+  padding-top: 3.17708333vw;
 }
 
 .athlets {
-  width: inherit;
-  display: inherit;
+  displaY: flex;
   flex-direction: column;
+}
+
+.athlets_content {
+  display: flex;
   justify-content: flex-end;
 }
 
-.athlets_title, .players_title {
+.athlets::after {
+  content: '';
+  background-image: url(https://github.com/NimbleFIsh/MQ/blob/master/img/footballer_566.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.athlets_container {
+  width: 37.1875vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.athlets_title {
   text-transform: uppercase;
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
   font-size: 4.16666667vw;
   color: #e7e7e7;
-  padding-bottom: 3.02083333vw;
-}
-
-.athlets_connection, .athlets_collaboration, .athlets_growth {
-  height: 12.96875vw;
-  box-sizing: border-box;
-}
-
-.athlets_connection_container, .athlets_collaboration_container, .athlets_growth_container {
-  display: flex;
-  align-items: flex-start;
+  margin-top: 5.9895333vw;
 }
 
 .athlets_number {
-  font-family: OpenSans-Bold, sans-serif;
-  font-weight: bolder;
-  font-size: 0.9375vw;
-  display: inherit;
-  margin-right: 0.572916667vw;
 
-  height: 1.35416667vw;
 }
 
-.athlets_connection_title, .athlets_collaboration_title, .athlets_growth_title {
-  font-family: OpenSans-Bold, sans-serif;
+.athlets-title {
   text-transform: uppercase;
   color: #c1c1c1;
-  font-size: 1.875vw;
-  display: inherit;
 }
 
-.athlets_connection_text, .athlets_collaboration_text, .athlets_growth_text {
-  padding-top: 1.77083333vw;
-  padding-bottom: 3.07291667vw;
-  font-family: OpenSans-Regular, sans-serif;
-  font-size: 1.04166667vw;
-}
-
-.athlets_collaboration_title {
-
-}
-
-.athlets_collaboration_text {
-
-}
-
-.athlets_growth_title {
-
-}
-
-.athlets_growth_text {
-
-}
-
-.players {
+.athlets_text {
 
 }
