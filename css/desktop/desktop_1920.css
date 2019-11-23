@@ -25,48 +25,53 @@
   text-transform: uppercase;
   font-size: 4.16666667vw;
   color: #e7e7e7;
+  padding-bottom: 3.02083333vw;
 }
 
-.athlets_title, .players_title {
-  margin-bottom: 5.67708333vw;
+.athlets_connection, .athlets_collaboration, .athlets_growth {
+  height: 12.96875vw;
+  box-sizing: border-box;
 }
 
-.athlets_connection_container {
+.athlets_connection_container, .athlets_collaboration_container, .athlets_growth_container {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
 }
 
 .athlets_number {
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bolder;
+  font-size: 0.9375vw;
+  display: inherit;
+  margin-right: 0.572916667vw;
+
+  height: 1.35416667vw;
+}
+
+.athlets_connection_title, .athlets_collaboration_title, .athlets_growth_title {
+  font-family: OpenSans-Bold, sans-serif;
+  text-transform: uppercase;
+  color: #c1c1c1;
+  font-size: 1.875vw;
   display: inherit;
 }
 
-.athlets_connection_title_1 {
-  display: inherit;
+.athlets_connection_text, .athlets_collaboration_text, .athlets_growth_text {
+  padding-top: 1.77083333vw;
+  padding-bottom: 3.07291667vw;
+  font-family: OpenSans-Regular, sans-serif;
+  font-size: 1.04166667vw;
+}
+
+.athlets_collaboration_title {
+
 }
 
 .athlets_collaboration_text {
 
 }
 
-.athlets_collaboration_container {
-  display: flex;
-  align-items: baseline;
-}
-
-.athlets_collaboration_title_1 {
-
-}
-
-.athlets_collaboration_text {
-
-}
-
-.athlets_growth_container {
-  display: flex;
-  align-items: baseline;
-}
-
-.athlets_growth_title_1 {
+.athlets_growth_title {
 
 }
 
