@@ -1,8 +1,14 @@
 .header {
   width: 100%;
+  height: 177.5vw;
+
+  background-image: url(https://github.com/NimbleFIsh/MQ/blob/master/img/football_767.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header::after {
+  height: 177.5vw;
   content: '';
   position: absolute;
 
@@ -16,46 +22,85 @@
 }
 
 .header_container {
+  height: 177.5vw;
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header_logo {
-  height: 5vw;
+  margin-top: 10vw;
+  margin-bottom: 40vw;
+  height: 11.875vw;
 }
 
 .header_title {
-
+  display: flex;
+  flex-direction: column;
+  width: 87.5vw;
 }
 
 .header_title_1 {
-
+  width: 65.625vw;
+  font-size: 8.75vw;
+  padding-bottom: 9.375vw;
 }
 
 .header_title_2 {
-
+  width: 70.625vw;
+  margin: auto;
+  font-size: 8.75vw;
 }
 
 .header_download {
+  margin-top: 26.875vw;
+  margin-bottom: 25.625vw;
+  display: flex;
+  flex-direction: column;
   width: 87.5%;
 }
 
 .header_download_apple {
-
+  justify-content: center;
+  align-items: center;
+  display: inherit;
+  height: 11.25vw;
+  margin-bottom: 3.75vw;
 }
 
 .header_download_google {
-
+  justify-content: center;
+  align-items: center;
+  display: inherit;
+  height: 11.25vw;
 }
 
 .header_download_icon {
   height: 7.5vw;
+  margin-right: 2.5vw;
 }
 
 .header_download_header {
-
+  font-family: OpenSans-Regular-2, sans-serif;
+  font-weight: normal;
+  font-size: 2.5vw;
 }
 
 .header_download_title {
+  font-family: OpenSans-Bold-2, sans-serif;
+  font-weight: bold;
+  font-size: 2.5vw;
+}
 
+/* MAIN */
+main {
+  width: 100%;
+  height: 607.8125vw;
+}
+
+.athlets {
+  width: 100%;
+  height: 315vw;
 }
