@@ -1,0 +1,20 @@
+.header {
+  width: 100%;
+
+  background-image: url(https://github.com/NimbleFIsh/MQ/blob/master/img/football_767.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  opacity: 0.9;
+  background-color: #0a0e34
+}
