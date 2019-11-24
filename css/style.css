@@ -44,6 +44,15 @@ a {
   color: #ffffff;
 }
 
+.header {
+  background-color: #000000;
+}
+
 .text-big {
   text-transform: uppercase;
+}
+
+.background_button {
+  background-color: #5e3db3;
+  border-radius: 15.625vw;
 }

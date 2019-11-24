@@ -1,0 +1,61 @@
+.header {
+  width: 100%;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: #0a0e34;
+  opacity: 0.9;
+}
+
+.header_container {
+  position: relative;
+  z-index: 1;
+}
+
+.header_logo {
+  height: 5vw;
+}
+
+.header_title {
+
+}
+
+.header_title_1 {
+
+}
+
+.header_title_2 {
+
+}
+
+.header_download {
+  width: 87.5%;
+}
+
+.header_download_apple {
+
+}
+
+.header_download_google {
+
+}
+
+.header_download_icon {
+  height: 7.5vw;
+}
+
+.header_download_header {
+
+}
+
+.header_download_title {
+
+}
