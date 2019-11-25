@@ -82,23 +82,22 @@ main {
 
 .athlets_connection_header {
   display: flex;
-  align-items: center;
   padding-bottom: 8.125vw;
 }
 
-.athlets_number_container {
+.athlets_number_container, .players_number_container {
   display: flex;
   flex-direction: column;
 }
 
-.athlets_number {
+.athlets_number, .players_number {
   height: 5.625vw;
   font-weight: bold;
   font-size: 4.375vw;
   margin-right: 2.8125vw;
 }
 
-.athlets_number_line {
+.athlets_number_line, .players_number_line {
   height: 1.25vw;
   width: 4.6875vw;
   border-radius: 15.625vw;
@@ -113,7 +112,7 @@ main {
   font-size: 4.6875vw;
 }
 
-.athlets_title {
+.athlets_title, .players_title {
   color: #c1c1c1;
 }
 
@@ -140,7 +139,7 @@ main {
   padding-bottom: 15.625vw;
 }
 
-.athlets_growth>p {
+.athlets_growth > p {
   color: #ffffff;
 }
 
@@ -148,6 +147,7 @@ main {
   display: inherit;
   padding-bottom: 7.8125vw;
 }
+
 
 .colors_players {
   width: 100%;
@@ -181,4 +181,45 @@ main {
 
 .players_container {
   position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 6.25vw;
+  height: 292.5vw;
+}
+
+.players_container > h2 {
+  height: 88.125vw;
+}
+
+.players_connection {
+  width: 100%;
+  box-sizing: border-box;
+  height: 78.125vw;
+  padding-top: 25vw;
+  padding-bottom: 17.1875vw;
+}
+
+.players_connection_header, .players_collaboration_header, .players_growth_header {
+  display: flex;
+  padding-bottom: 8.75vw;
+}
+
+.players_collaboration {
+  width: 100%;
+  box-sizing: border-box;
+  height: 59.375vw;
+  padding-top: 18.75vw;
+  padding-bottom: 17.1875vw;
+}
+
+.players_growth {
+  width: 100%;
+  box-sizing: border-box;
+  height: 58.75vw;
+  padding-bottom: 10vw;
+  padding-top: 17.1875vw;
+}
+
+.special_color_02 {
+  color: #7151bf;
 }
