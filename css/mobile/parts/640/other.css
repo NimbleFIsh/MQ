@@ -1,0 +1,61 @@
+/* <header> */
+
+.header_download_icon {
+  height: 7.5vw;
+  margin-right: 2.5vw;
+}
+
+.header_download_header {
+  font-family: OpenSans-Regular-2, sans-serif;
+  font-weight: normal;
+  font-size: 2.5vw;
+}
+
+.header_download_title {
+  font-family: OpenSans-Bold-2, sans-serif;
+  font-weight: bold;
+  font-size: 2.5vw;
+}
+
+/* </header> */
+
+/* <main> */
+.main_title {
+  color: #e7e7e7;
+  font-family: OpenSans-Bold-2, sans-serif;
+  font-size: 15.625vw;
+}
+
+.athlets_number_container, .players_number_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.athlets_number, .players_number {
+  height: 5.625vw;
+  font-weight: bold;
+  font-size: 4.375vw;
+  margin-right: 2.8125vw;
+}
+
+.athlets_number_line, .players_number_line {
+  height: 1.25vw;
+  width: 4.6875vw;
+  border-radius: 15.625vw;
+  background-color: #5e3db3;
+}
+
+.athlets_title, .players_title {
+  color: #c1c1c1;
+}
+
+.athlets_text {
+  font-size: 4.6875vw;
+}
+
+.players_connection_header, .players_collaboration_header, .players_growth_header {
+  display: flex;
+  padding-bottom: 8.75vw;
+}
+
+/* </main> */

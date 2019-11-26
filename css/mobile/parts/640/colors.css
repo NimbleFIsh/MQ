@@ -1,0 +1,77 @@
+/* Colors for <main> */
+
+.special_color_03 {
+  background-color: #ffffff;
+}
+
+.athlets_growth > p {
+  color: #ffffff;
+}
+
+.special_color_02 {
+  color: #7151bf;
+}
+
+/* ATHLETS */
+
+.colors_athlets {
+  width: 100%;
+  position: absolute;
+  height: 315vw;
+}
+
+.white_athlets {
+  width: 100%;
+  height: 95.625vw;
+  background-color: #ffffff;
+}
+
+.grey_athlets {
+  width: 100%;
+  height: 66.25vw;
+  background-color: #fafafa;
+}
+
+.dark_grey_athlets {
+  width: 100%;
+  height: 81.875vw;
+  background-color: #f5f4f9;
+}
+
+.purple_athlets {
+  width: 100%;
+  height: 71.25vw;
+  background-color: #5e3db3;
+}
+
+/* PLAYERS */
+
+.colors_players {
+  width: 100%;
+  position: absolute;
+  height: 292.5vw;
+}
+
+.white_players {
+  width: 100%;
+  height: 94.375vw;
+  background-color: #ffffff;
+}
+
+.grey_players {
+  width: 100%;
+  height: 78.125vw;
+  background-color: #fafafa;
+}
+
+.dark_grey_players {
+  width: 100%;
+  height: 60vw;
+  background-color: #f5f4f9;
+}
+
+.purple_players {
+  width: 100%;
+  height: 59.0625vw;
+  background-color: #090a36;
+}

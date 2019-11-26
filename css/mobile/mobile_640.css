@@ -1,50 +1,17 @@
 @import "parts/640/header.css";
-
-/* MAIN */
+@import "parts/640/colors.css";
+@import "parts/640/other.css";
 
 main {
   width: 100%;
   height: 607.8125vw;
 }
 
+/* ATHLETS */
+
 .athlets {
   width: 100%;
   height: 315vw;
-}
-
-.players {
-  width: 100%;
-  height: 292.5vw;
-}
-
-.colors_athlets {
-  width: 100%;
-  position: absolute;
-  height: 315vw;
-}
-
-.white_athlets {
-  width: 100%;
-  height: 95.625vw;
-  background-color: #ffffff;
-}
-
-.grey_athlets {
-  width: 100%;
-  height: 66.25vw;
-  background-color: #fafafa;
-}
-
-.dark_grey_athlets {
-  width: 100%;
-  height: 81.875vw;
-  background-color: #f5f4f9;
-}
-
-.purple_athlets {
-  width: 100%;
-  height: 71.25vw;
-  background-color: #5e3db3;
 }
 
 .athlets_container {
@@ -65,12 +32,6 @@ main {
   height: 88.125vw;
 }
 
-.main_title {
-  color: #e7e7e7;
-  font-family: OpenSans-Bold-2, sans-serif;
-  font-size: 15.625vw;
-}
-
 .athlets_connection {
   box-sizing: border-box;
   height: 66.25vw;
@@ -83,37 +44,6 @@ main {
 .athlets_connection_header {
   display: flex;
   padding-bottom: 8.125vw;
-}
-
-.athlets_number_container, .players_number_container {
-  display: flex;
-  flex-direction: column;
-}
-
-.athlets_number, .players_number {
-  height: 5.625vw;
-  font-weight: bold;
-  font-size: 4.375vw;
-  margin-right: 2.8125vw;
-}
-
-.athlets_number_line, .players_number_line {
-  height: 1.25vw;
-  width: 4.6875vw;
-  border-radius: 15.625vw;
-  background-color: #5e3db3;
-}
-
-.special_color_03 {
-  background-color: #ffffff;
-}
-
-.athlets_text {
-  font-size: 4.6875vw;
-}
-
-.athlets_title, .players_title {
-  color: #c1c1c1;
 }
 
 .athlets_collaboration {
@@ -139,44 +69,16 @@ main {
   padding-bottom: 15.625vw;
 }
 
-.athlets_growth > p {
-  color: #ffffff;
-}
-
 .athlets_growth_header {
   display: inherit;
   padding-bottom: 7.8125vw;
 }
 
+/* PLAYERS */
 
-.colors_players {
+.players {
   width: 100%;
-  position: absolute;
   height: 292.5vw;
-}
-
-.white_players {
-  width: 100%;
-  height: 94.6875vw;
-  background-color: #ffffff;
-}
-
-.grey_players {
-  width: 100%;
-  height: 78.125vw;
-  background-color: #fafafa;
-}
-
-.dark_grey_players {
-  width: 100%;
-  height: 59.375vw;
-  background-color: #f5f4f9;
-}
-
-.purple_players {
-  width: 100%;
-  height: 58.75vw;
-  background-color: #090a36;
 }
 
 .players_container {
@@ -185,6 +87,11 @@ main {
   width: 100%;
   padding: 6.25vw;
   height: 292.5vw;
+
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/basketballer_302.png?raw=true");
+  background-position: center 28.125vw;
+  background-repeat: no-repeat;
+  background-size: 90%;
 }
 
 .players_container > h2 {
@@ -199,15 +106,11 @@ main {
   padding-bottom: 17.1875vw;
 }
 
-.players_connection_header, .players_collaboration_header, .players_growth_header {
-  display: flex;
-  padding-bottom: 8.75vw;
-}
 
 .players_collaboration {
   width: 100%;
   box-sizing: border-box;
-  height: 59.375vw;
+  height: 60vw;
   padding-top: 18.75vw;
   padding-bottom: 17.1875vw;
 }
@@ -215,11 +118,7 @@ main {
 .players_growth {
   width: 100%;
   box-sizing: border-box;
-  height: 58.75vw;
+  height: 59.0625vw;
   padding-bottom: 10vw;
   padding-top: 17.1875vw;
-}
-
-.special_color_02 {
-  color: #7151bf;
 }

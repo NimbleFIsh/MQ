@@ -76,20 +76,3 @@
   display: inherit;
   height: 11.25vw;
 }
-
-.header_download_icon {
-  height: 7.5vw;
-  margin-right: 2.5vw;
-}
-
-.header_download_header {
-  font-family: OpenSans-Regular-2, sans-serif;
-  font-weight: normal;
-  font-size: 2.5vw;
-}
-
-.header_download_title {
-  font-family: OpenSans-Bold-2, sans-serif;
-  font-weight: bold;
-  font-size: 2.5vw;
-}
