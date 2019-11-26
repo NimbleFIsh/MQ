@@ -1,0 +1,121 @@
+main {
+  width: 100%;
+  height: 607.8125vw;
+}
+
+/* ATHLETS */
+
+.athlets {
+  width: 100%;
+  height: 315vw;
+}
+
+.athlets_container {
+  position: relative;
+  box-sizing: border-box;
+  height: 315vw;
+  padding-top: 7.5vw;
+  padding-left: 6.25vw;
+  padding-right: 6.25vw;
+
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/footballer_192.png?raw=true");
+  background-position: center 24.375vw;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.athlets_container > h2 {
+  height: 88.125vw;
+}
+
+.athlets_connection {
+  box-sizing: border-box;
+  height: 66.25vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25vw;
+  padding-bottom: 15.625vw;
+}
+
+.athlets_connection_header {
+  display: flex;
+  padding-bottom: 8.125vw;
+}
+
+.athlets_collaboration {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 81.875vw;
+  padding-top: 18.75vw;
+  padding-bottom: 17.1875vw;
+}
+
+.athlets_collaboration_header {
+  display: inherit;
+  padding-bottom: 7.8125vw;
+}
+
+.athlets_growth {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 71.25vw;
+  padding-top: 18.75vw;
+  padding-bottom: 15.625vw;
+}
+
+.athlets_growth_header {
+  display: inherit;
+  padding-bottom: 7.8125vw;
+}
+
+/* PLAYERS */
+
+.players {
+  width: 100%;
+  height: 292.5vw;
+}
+
+.players_container {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 6.25vw;
+  padding-bottom: 0;
+  height: 292.5vw;
+
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/basketballer_302.png?raw=true");
+  background-position: center 28.125vw;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.players_container > h2 {
+  height: 88.125vw;
+}
+
+.players_connection {
+  width: 100%;
+  box-sizing: border-box;
+  height: 78.125vw;
+  padding-top: 25vw;
+  padding-bottom: 17.1875vw;
+}
+
+
+.players_collaboration {
+  width: 100%;
+  box-sizing: border-box;
+  height: 60vw;
+  padding-top: 18.75vw;
+  padding-bottom: 17.1875vw;
+}
+
+.players_growth {
+  width: 100%;
+  box-sizing: border-box;
+  height: 59.0625vw;
+  padding-bottom: 10vw;
+  padding-top: 17.1875vw;
+}
