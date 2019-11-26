@@ -9,6 +9,7 @@
   height: 175.9375vw;
   width: 100%;
   padding-top: 91.25vw;
+  letter-spacing: 2px;
 
   background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/be-active_640.jpg?raw=true");
   background-repeat: no-repeat;
@@ -24,6 +25,7 @@
 }
 
 .capabilities_app_2 {
+  letter-spacing: 1px;
   box-sizing: border-box;
   height: 170.625vw;
   width: 100%;
@@ -42,6 +44,7 @@
   box-sizing: border-box;
   height: 179.6875vw;
   width: 100%;
+  letter-spacing: 1px;
   padding-top: 91.25vw;
 
   background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/work-it_640.jpg?raw=true");
