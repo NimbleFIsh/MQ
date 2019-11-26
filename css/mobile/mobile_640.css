@@ -32,11 +32,11 @@
 
 .download_app_content {
   position: relative;
+  box-sizing: border-box;
   z-index: 1;
   margin-left: 6.25vw;
   margin-right: 6.25vw;
   padding-top: 30.625vw;
-  padding-bottom: 6.25vw;
 }
 
 .download_app_image_container {
