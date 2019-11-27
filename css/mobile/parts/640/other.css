@@ -46,10 +46,11 @@
 }
 
 .athlets_title, .players_title {
+  font-size: 7.1875vw;
   color: #c1c1c1;
 }
 
-.athlets_text {
+.athlets_text, .players_text {
   font-size: 4.6875vw;
 }
 

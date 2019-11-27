@@ -103,6 +103,7 @@ main {
   height: 78.125vw;
   padding-top: 25vw;
   padding-bottom: 17.1875vw;
+  letter-spacing: 0;
 }
 
 
@@ -111,7 +112,7 @@ main {
   box-sizing: border-box;
   height: 60vw;
   padding-top: 18.75vw;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   padding-bottom: 17.1875vw;
 }
 
