@@ -1,5 +1,9 @@
 /* <header> */
 
+body {
+  min-width: 320px;
+}
+
 .header_download_icon {
   height: 7.5vw;
   margin-right: 2.5vw;
@@ -21,6 +25,7 @@
 
 /* <main> */
 .main_title {
+  text-transform: uppercase;
   color: #e7e7e7;
   font-family: OpenSans-Bold-2, sans-serif;
   font-size: 15.625vw;
@@ -38,6 +43,29 @@
   margin-right: 2.8125vw;
 }
 
+.athlets_number, .players_number, .capabilities_app_number {
+  display: flex;
+  flex-direction: column;
+}
+
+.athlets_number:after, .players_number:after, .capabilities_app_number:after {
+  content: '';
+  box-sizing: border-box;
+  display: block;
+  width: 17px;
+  height: 4px;
+  position: absolute;
+  z-index: 1;
+
+  border-radius: 50px;
+  background-color: #8f78ca;
+  margin-top: 18px;
+}
+
+.athlets_number_special:after, .players_number_special:after {
+  background-color: #fff;
+}
+
 .athlets_number_line, .players_number_line {
   height: 1.25vw;
   width: 4.6875vw;
@@ -46,6 +74,7 @@
 }
 
 .athlets_title, .players_title {
+  text-transform: uppercase;
   font-size: 7.1875vw;
   color: #c1c1c1;
 }
@@ -59,4 +88,14 @@
   padding-bottom: 8.75vw;
 }
 
+.special_color_02 {
+  color: #8760e0;
+}
+
+.special_color_01 {
+  color: #fff;
+}
+.special_color_03 {
+  background-color: #fff;
+}
 /* </main> */

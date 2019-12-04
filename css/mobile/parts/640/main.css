@@ -6,15 +6,12 @@ main {
 /* ATHLETS */
 
 .athlets {
-  width: 100%;
-  height: 315vw;
   letter-spacing: 1px;
 }
 
 .athlets_container {
   position: relative;
   box-sizing: border-box;
-  height: 315vw;
   padding-top: 7.5vw;
   padding-left: 6.25vw;
   padding-right: 6.25vw;
@@ -25,13 +22,12 @@ main {
   background-size: 60%;
 }
 
-.athlets_container > h2 {
+.athlets_container_title {
   height: 88.125vw;
 }
 
 .athlets_connection {
   box-sizing: border-box;
-  height: 66.25vw;
   display: flex;
   flex-direction: column;
   padding-top: 25vw;
@@ -40,14 +36,13 @@ main {
 
 .athlets_connection_header {
   display: flex;
-  padding-bottom: 8.125vw;
+  margin-bottom: 8.125vw;
 }
 
 .athlets_collaboration {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 81.875vw;
   padding-top: 18.75vw;
   padding-bottom: 17.1875vw;
 }
@@ -61,7 +56,6 @@ main {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 71.25vw;
   padding-top: 18.75vw;
   padding-bottom: 15.625vw;
 }
@@ -74,18 +68,14 @@ main {
 /* PLAYERS */
 
 .players {
-  width: 100%;
   letter-spacing: 1px;
-  height: 292.5vw;
 }
 
 .players_container {
   position: relative;
   box-sizing: border-box;
-  width: 100%;
   padding: 6.25vw;
   padding-bottom: 0;
-  height: 292.5vw;
 
   background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/basketballer_302.png?raw=true");
   background-position: center 28.125vw;
@@ -93,14 +83,12 @@ main {
   background-size: 90%;
 }
 
-.players_container > h2 {
+.players_container_title {
   height: 88.125vw;
 }
 
 .players_connection {
-  width: 100%;
   box-sizing: border-box;
-  height: 78.125vw;
   padding-top: 25vw;
   padding-bottom: 17.1875vw;
   letter-spacing: 0;
@@ -108,7 +96,6 @@ main {
 
 
 .players_collaboration {
-  width: 100%;
   box-sizing: border-box;
   height: 60vw;
   padding-top: 18.75vw;
@@ -117,9 +104,7 @@ main {
 }
 
 .players_growth {
-  width: 100%;
   box-sizing: border-box;
-  height: 59.0625vw;
   padding-bottom: 10vw;
   padding-top: 17.1875vw;
 }

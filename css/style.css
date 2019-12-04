@@ -40,31 +40,8 @@ a {
   text-decoration: none;
 }
 
-.text-white {
-  color: #ffffff;
-}
-
-.text-light {
-  font-weight: normal;
-}
-
 .header {
   background-color: #000000;
-}
-
-.text-big {
-  text-transform: uppercase;
-}
-
-.text-bold {
-  font-family: OpenSans-Bold, sans-serif;
-  font-weight: bold;
-}
-
-
-.text-bold-2 {
-  font-family: OpenSans-Bold-2, sans-serif;
-  font-weight: bold;
 }
 
 .background_button {
