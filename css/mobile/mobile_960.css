@@ -1,3 +1,10 @@
+@import "parts/960/header.css";
+@import "parts/960/main.css";
+@import "parts/960/colors.css";
+@import "parts/960/article.css";
+@import "parts/960/footer.css";
+@import "parts/960/other.css";
+
 .header {
 
 }
