@@ -28,6 +28,8 @@
 
 body, ul, h1, h2, h3, p, a, html, div, main, footer, header, aside, section {
   font-family: OpenSans-Regular, sans-serif;
+  margin-block-end: 0;
+  margin-block-start: 0;
   margin: 0;
 }
 

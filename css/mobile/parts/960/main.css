@@ -1,0 +1,113 @@
+.athlets {
+  height: 98.6979167vw;
+}
+
+.athlets_container {
+  position: relative;
+  z-index: 2;
+  padding-top: 10.41661vw;
+  padding-left: 33.8541667vw;
+
+  padding-right: 3.90625vw;
+  box-sizing: border-box;
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/footballer_497.png?raw=true");
+  background-position: left -20vw bottom;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.main_title {
+  font-size: 10.416667vw;
+  text-transform: uppercase;
+  color: #e7e7e7;
+  margin-bottom: 7.8125vw;
+}
+
+.athlets_connection {
+  line-height: 20px;
+  padding-bottom: 2vw;
+  letter-spacing: 1.4px;
+  line-height: 20px;
+}
+
+.athlets_connection_header {
+  letter-spacing: normal;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.25520833vw;
+}
+
+.athlets_number_container, .players_number_container, .capabilities_app_number_container {
+  display: flex;
+  flex-direction: column;
+  height: 3.25520833vw;
+  margin-right: 1.04166667vw;
+}
+
+.athlets_number {
+  font-weight: bold;
+}
+
+.athlets_number:after {
+  content: '';
+  box-sizing: border-box;
+  display: block;
+  width: 17px;
+  height: 4px;
+  position: absolute;
+  z-index: 1;
+
+  margin-top: 2px;
+  border-radius: 50px;
+  background-color: #5e42b0;
+}
+
+.athlets_number_special:after, .players_number_special:after {
+  background-color: #fff;
+}
+
+.athlets_title {
+  text-transform: uppercase;
+  color: #c1c1c1;
+  font-size: 4.16666667vw;
+  height: 3.90625vw;
+}
+
+.athlets_text {
+
+}
+
+.athlets_collaboration {
+  letter-spacing: 1px;
+  line-height: 20px;
+  box-sizing: border-box;
+  padding-top: 5.20833333vw;
+  padding-bottom: 6.9vw;
+}
+
+.athlets_collaboration_header {
+  display: flex;
+  line-height: normal;
+  align-items: center;
+  margin-bottom: 4.16666667vw;
+}
+
+.athlets_growth {
+  padding-top: 5.20833333vw;
+  letter-spacing: 1px;
+  line-height: 20px;
+  box-sizing: border-box;
+  padding-bottom: 4.94791667vw;
+}
+
+.athlets_growth_header {
+  display: flex;
+  line-height: normal;
+  align-items: center;
+  margin-bottom: 4.16666667vw;
+}
+
+.athlets_text_special {
+  color: #fff;
+}
