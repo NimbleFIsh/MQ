@@ -1,0 +1,115 @@
+
+.download_app {
+  height: 953px;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/game_1280.jpg?raw=true");
+}
+
+.download_app:after {
+  content: '';
+  position: absolute;
+  height: 955px;
+  top: 695vw;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: #0a0e34;
+  opacity: 0.9;
+}
+
+.download_app_content {
+  box-sizing: border-box;
+  padding-top: 15.625vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  padding-bottom: 2.86458333vw;
+}
+
+.download_app_image_container {
+  width: 17.7083333vw;
+  height: 17.7083333vw;
+  background-color: #5536a4;
+  border-radius: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10.4166667vw;
+}
+
+.download_app_image {
+  width: 13.671875vw;
+}
+
+.download_app_header {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 10.4166667vw;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.download_app_title {
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: #a496ca;
+  font-size: 4.6875vw;
+  font-weight: normal;
+}
+
+.download {
+  margin-top: 37.109375vw;
+  display: flex;
+  margin-bottom: 6.51vw;
+}
+
+.download_apple {
+  display: flex;
+  align-items: center;
+  height: 9.765625vw;
+  width: 40.3645833vw;
+  padding-left: 6.0956098vw;
+  margin-right: 3.64583333vw;
+}
+
+.download_icon {
+  height: 6.51041667vw;
+  margin-right: 3.25520833vw;
+}
+
+.download_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.download_header {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.8229667vw;
+}
+
+.download_title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.8229667vw;
+}
+
+.download_google {
+  display: flex;
+  align-items: center;
+  height: 9.765625vw;
+  width: 40.3645833vw;
+  padding-left: 7.16145833vw;
+}
+
+.footer_logo {
+  height: 7.55208333vw;
+}
