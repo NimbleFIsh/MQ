@@ -2,9 +2,10 @@
 .header {
   height: 124.479167vw;
   box-sizing: border-box;
-  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/football_767.jpg?raw=true");
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/football_1280.jpg?raw=true");
   background-repeat: no-repeat;
-}
+  background-size: cover;
+  background-position: center center}
 
 .header::after {
   content: '';

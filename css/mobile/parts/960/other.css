@@ -10,3 +10,17 @@ body {
 .special_color_02 {
   color: #8261d6;
 }
+
+.athlets_text_special_1, .athlets_text_special  {
+  height: 40px;
+}
+
+.athlets_text_special {
+  letter-spacing: 1px;
+}
+
+
+.athlets_text_special_2 {
+  height: 80px;
+  line-height: 20px;
+}

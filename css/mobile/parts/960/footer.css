@@ -1,6 +1,6 @@
 
 .download_app {
-  height: 953px;
+  height: 124.088542vw;
   background-repeat: no-repeat;
 
   background-size: cover;
@@ -10,7 +10,7 @@
 .download_app:after {
   content: '';
   position: absolute;
-  height: 955px;
+  height: 124.348958vw;
   top: 695vw;
   right: 0;
   bottom: 0;
@@ -28,7 +28,7 @@
   align-items: center;
   position: relative;
   z-index: 2;
-  padding-bottom: 2.86458333vw;
+  padding-bottom: 2vw;
 }
 
 .download_app_image_container {
@@ -56,7 +56,7 @@
 
 .download_app_title {
   text-transform: uppercase;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #a496ca;
   font-size: 4.6875vw;
   font-weight: normal;

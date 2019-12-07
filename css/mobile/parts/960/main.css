@@ -27,7 +27,6 @@
   line-height: 20px;
   padding-bottom: 2vw;
   letter-spacing: 1.4px;
-  line-height: 20px;
 }
 
 .athlets_connection_header {
@@ -47,19 +46,20 @@
 
 .athlets_number {
   font-weight: bold;
+  font-size: 2.34375vw;
 }
 
 .athlets_number:after {
   content: '';
   box-sizing: border-box;
   display: block;
-  width: 17px;
-  height: 4px;
+  width: 2.21354167vw;
+  height: 0.52083333vw;
   position: absolute;
   z-index: 1;
 
-  margin-top: 2px;
-  border-radius: 50px;
+  margin-top: 0.260416667vw;
+  border-radius: 6.51041667vw;
   background-color: #5e42b0;
 }
 
@@ -75,7 +75,8 @@
 }
 
 .athlets_text {
-
+  letter-spacing: 2px;
+  font-size: 2.08333333vw;
 }
 
 .athlets_collaboration {
@@ -163,13 +164,13 @@
   content: '';
   box-sizing: border-box;
   display: block;
-  width: 17px;
-  height: 4px;
+  width: 2.21354167vw;
+  height: 0.52083333vw;
   position: absolute;
   z-index: 1;
 
-  margin-top: 2px;
-  border-radius: 50px;
+  margin-top: 0.260416667vw;
+  border-radius: 6.51041667vw;
   background-color: #5e42b0;
 }
 
@@ -177,13 +178,13 @@
   content: '';
   box-sizing: border-box;
   display: block;
-  width: 17px;
-  height: 4px;
+  width: 2.21354167vw;
+  height: 0.52083333vw;
   position: absolute;
   z-index: 1;
 
-  margin-top: 2px;
-  border-radius: 50px;
+  margin-top: 0.260416667vw;
+  border-radius: 6.51041667vw;
   background-color: #fff;
 }
 
@@ -191,12 +192,14 @@
   text-transform: uppercase;
   color: #c1c1c1;
   letter-spacing: 1px;
+  font-size: 4.16666667vw;
 }
 
 .players_text {
   font-size: 2.08333333vw;
   line-height: 22px;
   letter-spacing: 0.8px;
+  font-size: 2.08333333vw;
 }
 
 .players_collaboration {
@@ -204,7 +207,7 @@
   padding-top: 5.46875vw;
   box-sizing: border-box;
   letter-spacing: 0.6px;
-  padding-bottom: 4.6vw;
+  padding-bottom: 3.3vw;
 }
 
 .players_collaboration_header {
@@ -217,7 +220,7 @@
   width: 48vw;
   box-sizing: border-box;
   padding-top: 5.46875vw;
-  padding-bottom: 4.5vw;
+  padding-bottom: 3.3vw;
 }
 
 .players_growth_header {
