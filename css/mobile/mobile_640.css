@@ -1,7 +1,28 @@
 @import "parts/640/header.css";
 @import "parts/640/main.css";
-@import "parts/640/aside.css";
+@import "parts/640/article.css";
 @import "parts/640/footer.css";
 
-@import "parts/640/colors.css";
 @import "parts/640/other.css";
+
+.athlets_picture {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.athlets_picture_image {
+  position: relative;
+  top: 50px;
+}
+
+.players_picture {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.players_picture_image {
+  position: relative;
+  top: 25px;
+}

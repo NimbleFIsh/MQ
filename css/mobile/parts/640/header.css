@@ -1,6 +1,4 @@
 .header {
-  height: 100%;
-
   box-sizing: border-box;
   background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/football_767.jpg?raw=true");
   background-repeat: no-repeat;
@@ -9,7 +7,6 @@
 }
 
 .header::after {
-  height: 186.875vw;
   content: '';
   position: absolute;
 
@@ -68,7 +65,7 @@
 }
 
 .header_download_apple {
-  justify-content: center;
+  padding-left: 25vw;
   align-items: center;
   display: inherit;
   height: 11.25vw;
@@ -76,7 +73,7 @@
 }
 
 .header_download_google {
-  justify-content: center;
+  padding-left: 26.5vw;
   align-items: center;
   display: inherit;
   height: 11.25vw;

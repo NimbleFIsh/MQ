@@ -10,10 +10,10 @@
 
 .download_app:after {
   content: '';
-  height: 177vw;
+  height: 104.3%;
   position: absolute;
 
-  top: 1315.625vw;
+  top: 1318vw;
   right: 0;
   bottom: 0;
   left: 0;
