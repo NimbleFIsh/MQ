@@ -6,22 +6,26 @@
 @import "parts/960/other.css";
 
 .athlets_picture {
-  position: relative;
-  display: flex;
+  position: absolute;
+  width: 292px;
+  top: 30px;
+  left: -170px;
 }
 
-..athlets_picture_source {
+.athlets_picture_source {
   position: relative;
 }
 
 .athlets_picture_image {
   position: relative;
+  width: 160%;
 }
 
 .players_picture {
-  position: relative;
-  display: flex;
-  justify-content: right;
+  position: absolute;
+  width: 430px;
+  top: -30px;
+  right: 0;
 }
 
 .players_picture_image {
