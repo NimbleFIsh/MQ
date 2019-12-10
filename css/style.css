@@ -33,6 +33,29 @@ body, ul, h1, h2, h3, p, a, html, div, main, footer, header, aside, section {
   margin: 0;
 }
 
+.header::after {
+  content: '';
+  position: absolute;
+  height: 100vh;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: #0a0e34;
+  opacity: 0.9;
+}
+
+.header_container {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 ul {
   list-style: none;
 }

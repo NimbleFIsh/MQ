@@ -1,6 +1,29 @@
 @import "parts/960/header.css";
 @import "parts/960/main.css";
-@import "parts/960/colors.css";
 @import "parts/960/article.css";
 @import "parts/960/footer.css";
+
 @import "parts/960/other.css";
+
+.athlets_picture {
+  position: relative;
+  display: flex;
+}
+
+..athlets_picture_source {
+  position: relative;
+}
+
+.athlets_picture_image {
+  position: relative;
+}
+
+.players_picture {
+  position: relative;
+  display: flex;
+  justify-content: right;
+}
+
+.players_picture_image {
+  position: relative;
+}
