@@ -96,3 +96,25 @@ body {
   color: #fff;
 }
 /* </main> */
+
+.athlets_picture {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.athlets_picture_image {
+  position: relative;
+  top: 50px;
+}
+
+.players_picture {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.players_picture_image {
+  position: relative;
+  top: 25px;
+}
