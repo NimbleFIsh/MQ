@@ -1,45 +1,72 @@
 .athlets_container_title {
-
+  margin-left: 52.5vw;
+  margin-bottom: 5.67708333vw;
 }
 
 .athlets_container {
-
+  height: 887px;
+  padding-top: 6.04166667vw;
 }
 
 .main_title {
-
+  text-transform: uppercase;
+  color: #c1c1c1;
+  font-size: 4.16666667vw;
 }
 
 .athlets_connection {
-
+  padding-left: 52.5vw;
+  box-sizing: border-box;
+  padding-bottom: 3.125vw;
 }
 
 .athlets_connection_header {
-
+  display: flex;
+  margin-bottom: 1.5625vw;
 }
 
 .athlets_number_container {
-
+  margin-right: 0.625vw;
 }
 
 .athlets_number {
-
+  box-sizing: border-box;
+  padding-top: 5px;
+  font-size: 0.9375vw;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
 }
 
-.athlets_number_line {
+.athlets_number::after {
+  content: '';
+  position: relative;
 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  border-radius: 50vw;
+  height: 0.208333333vw;
+  width: 1.04166667vw;
+  background-color: #5e42b0;
 }
 
 .athlets_title {
-
+  font-size: 1.875vw;
+  text-transform: uppercase;
 }
 
 .athlets_text {
-
+  font-size: 1.04166667vw;
+  width: 37.1875vw;
+  letter-spacing: 1px;
 }
 
 .athlets_collaboration {
-
+  padding-left: 52.5vw;
+  background-color: #f6f4fa;
 }
 
 .athlets_collaboration_header {
@@ -47,7 +74,8 @@
 }
 
 .athlets_growth {
-
+  padding-left: 52.5vw;
+  background-color: #5e42b0;
 }
 
 .athlets_growth_header {

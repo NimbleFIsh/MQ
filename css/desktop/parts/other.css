@@ -7,25 +7,26 @@
 }
 
 .athlets_picture {
-
+  order: 1;
+  position: absolute;
 }
 
 .athlets_picture_source {
-
+  position: absolute;
 }
 
 .athlets_picture_image {
-
+  position: absolute;
 }
 
 .players_picture {
-
+  position: absolute;
 }
 
 .players_picture_source {
-
+  position: absolute;
 }
 
 .players_picture_image {
-
+  position: absolute;
 }
