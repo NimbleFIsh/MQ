@@ -7,23 +7,17 @@
 }
 
 .athlets_picture {
-  order: 1;
   position: absolute;
-}
-
-.athlets_picture_source {
-  position: absolute;
+  top: 58.291667vw;
+  left: 20.8333333vw;
 }
 
 .athlets_picture_image {
   position: absolute;
+  width: 29.4791667vw;
 }
 
 .players_picture {
-  position: absolute;
-}
-
-.players_picture_source {
   position: absolute;
 }
 

@@ -10,7 +10,7 @@
 
 .main_title {
   text-transform: uppercase;
-  color: #c1c1c1;
+  color: #e7e7e7;
   font-size: 4.16666667vw;
 }
 
@@ -42,7 +42,7 @@
   content: '';
   position: relative;
 
-  top: 0;
+  top: 3px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -56,30 +56,45 @@
 .athlets_title {
   font-size: 1.875vw;
   text-transform: uppercase;
+  color: #c1c1c1;
 }
 
 .athlets_text {
   font-size: 1.04166667vw;
-  width: 37.1875vw;
+  width: 36vw;
   letter-spacing: 1px;
 }
 
 .athlets_collaboration {
   padding-left: 52.5vw;
+  padding-top: 3.02083333vw;
+  padding-bottom: 3.07291667vw;
   background-color: #f6f4fa;
 }
 
 .athlets_collaboration_header {
-
+  display: flex;
+  margin-bottom: 1.82291667vw;
 }
 
 .athlets_growth {
   padding-left: 52.5vw;
+  padding-top: 3.125vw;
+  padding-bottom: 3.125vw;
   background-color: #5e42b0;
 }
 
 .athlets_growth_header {
+  display: flex;
+  margin-bottom: 1.77083333vw;
+}
 
+.athlets_number_special:after {
+  background-color: #fff;
+}
+
+.athlets_text_special {
+  color: #fff;
 }
 
 .players_container_title {
