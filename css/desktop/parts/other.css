@@ -19,8 +19,11 @@
 
 .players_picture {
   position: absolute;
+  top: 106.770833vw;
+  right: 58.3333333vw;
 }
 
 .players_picture_image {
   position: absolute;
+  width: 51.6145833vw;
 }
