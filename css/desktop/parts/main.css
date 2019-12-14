@@ -127,6 +127,7 @@
 
 .players_number {
   box-sizing: border-box;
+  padding-top: 5px;
   font-size: 0.9375vw;
   display: flex;
   flex-direction: column;
@@ -161,18 +162,30 @@
 
 .players_collaboration {
   padding-left: 9.375vw;
+  padding-top: 3.125vw;
+  padding-bottom: 4.63541667vw;
   box-sizing: border-box;
+  background-color: #f5f6f7;
 }
 
 .players_collaboration_header {
   display: flex;
+  margin-bottom: 2.23958333vw;
 }
 
 .players_growth {
   padding-left: 9.375vw;
   box-sizing: border-box;
+  padding-top: 3.02083333vw;
+  padding-bottom: 3.125vw;
+  background-color: #0a0e34;
 }
 
 .players_growth_header {
   display: flex;
+  margin-bottom: 1.82291667vw;
+}
+
+.players_number_special:after {
+  background-color: #fff;
 }
