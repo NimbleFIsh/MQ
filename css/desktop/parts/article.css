@@ -1,29 +1,58 @@
 .capabilities_app {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .capabilities_app_1 {
-
+  display: flex;
+  flex-wrap: wrap;
+  place-content: flex-start;
+  box-sizing: border-box;
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/be-active_1024.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: 50vw;
+  padding-left: 45.625vw;
+  padding-top: 10.9895833vw;
+  padding-bottom: 7vw;
+  padding-right: 12.3130208vw;
 }
 
 .capabilities_app_number_container {
-
+  margin-right: 3.125vw;
+  width: 8.02083333vw;
+  height: 8.02083333vw;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .capabilities_app_number {
-
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.25vw;
 }
 
-.capabilities_app_number_line {
+.capabilities_app_number:after {
 
 }
 
 .capabilities_app_title {
-
+  box-sizing: border-box;
+  height: 8.02083333vw;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-size: 4.16666667vw;
+  margin-bottom: 3.90625vw;
 }
 
 .capabilities_app_text {
-
+  margin-left: 11.0416667vw;
+  font-size: 1.25vw;
+  width: 31.020833vw;
+  letter-spacing: 1px;
 }
 
 .capabilities_app_2 {
