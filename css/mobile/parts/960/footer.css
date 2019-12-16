@@ -31,6 +31,10 @@
   padding-bottom: 2vw;
 }
 
+.download_app_content_header {
+  display: contents;
+}
+
 .download_app_image_container {
   width: 17.7083333vw;
   height: 17.7083333vw;

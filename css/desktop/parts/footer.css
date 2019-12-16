@@ -1,55 +1,127 @@
 .download_app {
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/game_1920.jpg?raw=true");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 2.55208333vw;
+  padding-top: 11.8229167vw;
 
+  height: 959px;
+}
+
+.download_app:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  height: inherit;
+
+  top: 263.104167vw;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: #0a0e34;
+  opacity: 0.9;
 }
 
 .download_app_content {
+  position: relative;
+  z-index: 2;
+}
 
+.download_app_content_header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7.91666667vw;
+}
+
+.download_app_special {
+  margin-left: 1.82291667vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .download_app_image_container {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7.1875vw;
+  height: 7.1875vw;
+  background-color: #7151cf;
+  border-radius: 34px;
 }
 
 .download_app_image {
-
+  height: 4.16666667vw;
 }
 
 .download_app_header {
-
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4.16666667vw;
+  font-weight: bold;
 }
 
 .download_app_title {
-
+  color: #a496ca;
+  text-transform: uppercase;
+  font-size: 1.5625vw;
+  font-weight: normal;
 }
 
 .download {
-
+  display: flex;
+  justify-content: center;
+  margin-bottom: 13.5416667vw;
 }
 
 .download_apple {
-
+  box-sizing: border-box;
+  padding-left: 2.08333333vw;
+  width: 16.1458333vw;
+  display: flex;
+  height: 3.90625vw;
+  margin-right: 2.60416667vw
 }
 
 .download_icon {
-
+  height: 2.60416667vw;
+  margin-right: 1.5625vw;
 }
 
 .download_container {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .download_header {
-
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 0.729166667vw;
 }
 
 .download_title {
-
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.729166667vw;
 }
 
 .download_google {
-
+  box-sizing: border-box;
+  padding-left: 3.64583333vw;
+  width: 16.1458333vw;
+  display: flex;
+  height: 3.90625vw;
 }
 
 .footer_logo {
-
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 3.03083333vw;
 }
