@@ -16,7 +16,7 @@
   content: '';
   position: absolute;
   z-index: 1;
-  height: inherit;
+  height: 80%;
 
   top: 263.104167vw;
   right: 0;
