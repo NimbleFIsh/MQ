@@ -1,6 +1,559 @@
-@import "parts/header.css";
-@import "parts/main.css";
-@import "parts/article.css";
-@import "parts/footer.css";
+.header {
+  padding-left: 9.47916667vw;
+  padding-right: 9.47916667vw;
+  padding-top: 2.34375vw;
+  padding-bottom: 5.72916667vw;
+  box-sizing: border-box;
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/football_1920.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-@import "parts/other.css";
+.header_logo_a {
+  height: 2.76041667vw;
+}
+
+.header_logo {
+  height: 2.76041667vw;
+}
+
+.header_title {
+  margin-top: 15.1041667vw;
+  letter-spacing: 1px;
+  margin-bottom: 11.4583333vw;
+}
+
+.header_title_1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 4.6875vw;
+  font-family: OpenSans-Bold, sans-serif;
+}
+
+.special_dk_t1 {
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 30vw;
+}
+
+.header_title_2 {
+  margin-left: 21vw;
+  text-transform: uppercase;
+  word-break: break-all;
+  color: #fff;
+  font-size: 4.6875vw;
+  font-family: OpenSans-Bold, sans-serif;
+}
+
+.special_dk_t2 {
+  margin: 0;
+}
+
+.header_download {
+  display: flex;
+}
+
+.header_download_apple {
+  box-sizing: border-box;
+  height: 4.0625vw;
+  width: 16.1458333vw;
+  margin-right: 2.60416667vw;
+  padding-left: 1.97916667vw
+}
+
+.background_button {
+  display: flex;
+  align-items: center;
+}
+
+.header_download_icon {
+  height: 2.60416667vw;
+  margin-right: 1.45833333vw;
+}
+
+.header_download_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_download_header {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: normal;
+  font-size: 0.729166667vw;
+}
+
+.header_download_title {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.729166667vw;
+}
+
+.header_download_google {
+  box-sizing: border-box;
+  height: 4.0625vw;
+  width: 16.1458333vw;
+  padding-left: 2.86458333vw;
+}
+
+.athlets_container_title {
+  margin-left: 52.5vw;
+  margin-bottom: 5.67708333vw;
+}
+
+.athlets_container {
+  padding-top: 6.04166667vw;
+  box-sizing: border-box;
+}
+
+.main_title {
+  text-transform: uppercase;
+  color: #e7e7e7;
+  font-size: 4.16666667vw;
+}
+
+.athlets_connection {
+  padding-left: 52.5vw;
+  box-sizing: border-box;
+  padding-bottom: 3.125vw;
+}
+
+.athlets_connection_header {
+  display: flex;
+  margin-bottom: 1.5625vw;
+}
+
+.athlets_number_container {
+  margin-right: 0.625vw;
+}
+
+.athlets_number {
+  box-sizing: border-box;
+  padding-top: 5px;
+  font-size: 0.9375vw;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.athlets_number::after {
+  content: '';
+  position: relative;
+
+  top: 3px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  border-radius: 50vw;
+  height: 0.208333333vw;
+  width: 1.04166667vw;
+  background-color: #5e42b0;
+}
+
+.athlets_title {
+  font-size: 1.875vw;
+  text-transform: uppercase;
+  color: #c1c1c1;
+}
+
+.athlets_text {
+  font-size: 1.04166667vw;
+  width: 36vw;
+  letter-spacing: 1px;
+}
+
+.athlets_collaboration {
+  box-sizing: border-box;
+  padding-left: 52.5vw;
+  padding-top: 3.02083333vw;
+  padding-bottom: 3.07291667vw;
+  background-color: #f6f4fa;
+}
+
+.athlets_collaboration_header {
+  display: flex;
+  margin-bottom: 1.82291667vw;
+}
+
+.athlets_growth {
+  box-sizing: border-box;
+  padding-left: 52.5vw;
+  padding-top: 3.125vw;
+  padding-bottom: 3.125vw;
+  background-color: #5e42b0;
+}
+
+.athlets_growth_header {
+  display: flex;
+  margin-bottom: 1.77083333vw;
+}
+
+.athlets_number_special:after {
+  background-color: #fff;
+}
+
+.athlets_text_special {
+  color: #fff;
+}
+
+.players_container_title {
+  box-sizing: border-box;
+  padding-left: 9.375vw;
+  margin-bottom: 5.67708333vw;
+}
+
+.players_container {
+  box-sizing: border-box;
+  padding-top: 6.09375vw;
+}
+
+.players_connection {
+  padding-left: 9.375vw;
+  box-sizing: border-box;
+  padding-bottom: 3.125vw;
+}
+
+.players_connection_header {
+  display: flex;
+  margin-bottom: 1.875vw;
+}
+
+.players_number_container {
+  margin-right: 0.625vw;
+}
+
+.players_number {
+  box-sizing: border-box;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 0.9375vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.players_number:after {
+  content: '';
+  position: relative;
+
+  top: 3px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  border-radius: 50vw;
+  height: 0.208333333vw;
+  width: 1.04166667vw;
+  background-color: #5e42b0;
+}
+
+.players_title {
+  font-size: 1.875vw;
+  text-transform: uppercase;
+  color: #c1c1c1;
+}
+
+.players_text {
+  font-size: 1.04166667vw;
+  width: 39.2708333vw;
+  letter-spacing: 1px;
+}
+
+.players_collaboration {
+  padding-left: 9.375vw;
+  padding-top: 3.125vw;
+  padding-bottom: 4.63541667vw;
+  box-sizing: border-box;
+  background-color: #f5f6f7;
+}
+
+.players_collaboration_header {
+  display: flex;
+  margin-bottom: 2.23958333vw;
+}
+
+.players_growth {
+  padding-left: 9.375vw;
+  box-sizing: border-box;
+  padding-top: 3.02083333vw;
+  padding-bottom: 3.125vw;
+  background-color: #0a0e34;
+}
+
+.players_growth_header {
+  display: flex;
+  margin-bottom: 1.82291667vw;
+}
+
+.players_number_special:after {
+  background-color: #fff;
+}
+
+.capabilities_app {
+  display: flex;
+  flex-direction: column;
+}
+
+.capabilities_app_1 {
+  display: flex;
+  flex-wrap: wrap;
+  place-content: flex-start;
+  box-sizing: border-box;
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/be-active_1024.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: 50vw;
+  padding-left: 45.625vw;
+  padding-top: 10.9895833vw;
+  padding-bottom: 7.5vw;
+  padding-right: 12.3130208vw;
+}
+
+.capabilities_app_number_container {
+  margin-right: 3.125vw;
+  width: 8.02083333vw;
+  height: 8.02083333vw;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.capabilities_app_number {
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.25vw;
+}
+
+.capabilities_app_number:after {
+  content: '';
+  position: relative;
+
+  top: 3px;  right: 0;
+  bottom: 0;
+  left: 0;
+
+  border-radius: 50vw;
+  height: 0.208333333vw;
+  width: 1.4vw;
+  background-color: #8f7bc8;
+}
+
+.capabilities_app_title {
+  box-sizing: border-box;
+  height: 8.02083333vw;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-size: 4.16666667vw;
+  margin-bottom: 3.90625vw;
+}
+
+.capabilities_app_text {
+  margin-left: 11.0416667vw;
+  font-size: 1.25vw;
+  width: 31.020833vw;
+  letter-spacing: 1px;
+}
+
+.capabilities_app_2 {
+  box-sizing: border-box;
+  padding-top: 10.9895833vw;
+  padding-left: 9.375vw;
+  padding-bottom: 12.2vw;
+
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/find-contact_1024.jpg?raw=true");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.special_app_number_container {
+  position: absolute;
+  margin-left: 36.25vw;
+}
+
+.special_app_text {
+  margin: 0;
+  width: 33.020833vw;
+}
+
+.capabilities_app_3 {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: flex-start;
+  padding-top: 10.9895833vw;
+  padding-left: 45.625vw;
+  padding-bottom: 10.7vw;
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/work-it_1024.jpg?raw=true");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.special_app_text_01 {
+  width: 32.020833vw;
+}
+
+.download_app {
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/game_1920.jpg?raw=true");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 2.55208333vw;
+  padding-top: 11.8229167vw;
+
+  height: 959px;
+}
+
+.download_app:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  height: 80%;
+
+  top: 263.104167vw;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: #0a0e34;
+  opacity: 0.9;
+}
+
+.download_app_content {
+  position: relative;
+  z-index: 2;
+}
+
+.download_app_content_header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7.91666667vw;
+}
+
+.download_app_special {
+  margin-left: 1.82291667vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.download_app_image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7.1875vw;
+  height: 7.1875vw;
+  background-color: #7151cf;
+  border-radius: 34px;
+}
+
+.download_app_image {
+  height: 4.16666667vw;
+}
+
+.download_app_header {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4.16666667vw;
+  font-weight: bold;
+}
+
+.download_app_title {
+  color: #a496ca;
+  text-transform: uppercase;
+  font-size: 1.5625vw;
+  font-weight: normal;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 13.5416667vw;
+}
+
+.download_apple {
+  box-sizing: border-box;
+  padding-left: 2.08333333vw;
+  width: 16.1458333vw;
+  display: flex;
+  height: 3.90625vw;
+  margin-right: 2.60416667vw
+}
+
+.download_icon {
+  height: 2.60416667vw;
+  margin-right: 1.5625vw;
+}
+
+.download_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.download_header {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 0.729166667vw;
+}
+
+.download_title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.729166667vw;
+}
+
+.download_google {
+  box-sizing: border-box;
+  padding-left: 3.64583333vw;
+  width: 16.1458333vw;
+  display: flex;
+  height: 3.90625vw;
+}
+
+.footer_logo {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 3.03083333vw;
+}
+
+
+.special_color_01 {
+    color: #fff;
+}
+
+.special_color_02 {
+  color: #866ad6;
+}
+
+.athlets_picture {
+  position: absolute;
+  top: 58.291667vw;
+  left: 20.8333333vw;
+}
+
+.athlets_picture_image {
+  position: absolute;
+  width: 29.4791667vw;
+}
+
+.players_picture {
+  position: absolute;
+  top: 106.770833vw;
+  right: 58.3333333vw;
+}
+
+.players_picture_image {
+  position: absolute;
+  width: 51.6145833vw;
+}

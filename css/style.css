@@ -33,11 +33,15 @@ body, ul, h1, h2, h3, p, a, html, div, main, footer, header, aside, section {
   margin: 0;
 }
 
+.header {
+  height: 100vh;
+}
+
 .header::after {
   content: '';
   position: absolute;
 
-  height: 82%;
+  height: 100%;
   top: 0;
   right: 0;
   bottom: 0;
