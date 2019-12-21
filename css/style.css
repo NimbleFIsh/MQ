@@ -1,27 +1,27 @@
 @font-face {
   font-family: OpenSans-Regular;
-  src: url("https://github.com/NimbleFIsh/MQ/tree/master/fonts/OpenSans-Regular.woff");
+  src: "fonts/OpenSans-Regular.woff";
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: OpenSans-Regular-2;
-  src: url("https://github.com/NimbleFIsh/MQ/tree/master/fonts/OpenSans-Regular.woff2");
+  src: "fonts/OpenSans-Regular.woff2";
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: OpenSans-Bold;
-  src: url("https://github.com/NimbleFIsh/MQ/tree/master/fonts/OpenSans-Bold.woff");
+  src: "fonts/OpenSans-Bold.woff";
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
   font-family: OpenSans-Bold-2;
-  src: url("https://github.com/NimbleFIsh/MQ/tree/master/fonts/OpenSans-Bold.woff2");
+  src: "fonts/OpenSans-Bold.woff2";
   font-style: normal;
   font-weight: bold;
 }

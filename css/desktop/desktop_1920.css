@@ -9,10 +9,6 @@
   background-repeat: no-repeat;
 }
 
-.header_logo_a {
-  height: 2.76041667vw;
-}
-
 .header_logo {
   height: 2.76041667vw;
 }
@@ -300,9 +296,6 @@
   flex-wrap: wrap;
   place-content: flex-start;
   box-sizing: border-box;
-  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/be-active_1024.jpg?raw=true");
-  background-repeat: no-repeat;
-  background-size: 50vw;
   padding-left: 45.625vw;
   padding-top: 10.9895833vw;
   padding-bottom: 7.5vw;
@@ -365,11 +358,6 @@
   padding-top: 10.9895833vw;
   padding-left: 9.375vw;
   padding-bottom: 12.2vw;
-
-  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/find-contact_1024.jpg?raw=true");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
 }
 
 .special_app_number_container {
@@ -390,9 +378,6 @@
   padding-top: 10.9895833vw;
   padding-left: 45.625vw;
   padding-bottom: 10.7vw;
-  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/work-it_1024.jpg?raw=true");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .special_app_text_01 {
