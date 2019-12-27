@@ -8,6 +8,11 @@ body {
   margin: 0;
 }
 
+h1, h2, h3 {
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -26,7 +31,7 @@ ul {
   background-color: #000000;
 }
 
-.header::after {
+.header:after {
   content: '';
   position: absolute;
   height: 100%;
@@ -60,6 +65,12 @@ ul {
   color: #e7e7e7;
 }
 
+.athlets_container {
+  position: relative;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
 .athlets_title {
   text-transform: uppercase;
   color: #c1c1c1;
@@ -83,8 +94,32 @@ ul {
 }
 
 .athlets_growth {
+  display: flex;
   box-sizing: border-box;
   background-color: #5e42b0;
+}
+
+.athlets_collaboration_header {
+  display: flex;
+}
+
+.athlets_growth_header {
+  display: flex;
+}
+
+.athlets_text_special {
+  color: #fff;
+}
+
+.header_title {
+  text-transform: uppercase;
+  color: #fff;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.athlets_number_special:after, .players_number_special:after {
+  background-color: #fff;
 }
 
 .athlets_number_container, .players_number_container, .capabilities_app_number_container {
@@ -92,9 +127,112 @@ ul {
   flex-direction: column;
 }
 
+.athlets_number:after, .players_number:after, .capabilities_app_number:after {
+  content: '';
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: #8f78ca;
+}
+
 .athlets_number, .players_number, .capabilities_app_number {
   display: flex;
   flex-direction: column;
   font-weight: bold;
   box-sizing: border-box;
+}
+
+.athlets_picture {
+  position: absolute;
+}
+
+.athlets_picture_image {
+  position: relative;
+}
+
+.capabilities_app {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.capabilities_app_1 {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.capabilities_app_2 {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.capabilities_app_3 {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.capabilities_app_number {
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.capabilities_app_number:after {
+  content: '';
+  position: relative;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: #8f7bc8;
+}
+
+.capabilities_app_title {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #e7e7e7;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.download_app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.download_app:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: #0a0e34;
+  opacity: 0.9;
 }
