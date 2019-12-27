@@ -118,6 +118,15 @@ ul {
   display: flex;
 }
 
+.header_title_1 {
+  color: #fff;
+}
+
+.header_title_2 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
 .athlets_number_special:after, .players_number_special:after {
   background-color: #fff;
 }
@@ -235,4 +244,85 @@ ul {
 
   background-color: #0a0e34;
   opacity: 0.9;
+}
+
+.download_app_content {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  text-transform: uppercase;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.download_app_content_header {
+  display: flex;
+  justify-content: center;
+}
+
+.download_app_header {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.download_app_image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5536a4;
+}
+
+.download_app_title {
+  text-transform: uppercase;
+  color: #a496ca;
+  font-weight: normal;
+}
+
+.download_apple {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.download_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.download_title {
+  font-family: OpenSans-Bold, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header_download {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header_download_apple, .header_download_google {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header_download_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_download_header, .header_download_title {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: normal;
+}
+
+.header_download_title {
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
 }
