@@ -1,0 +1,9 @@
+body {
+  min-width: 641px;
+  max-width: 960px;
+}
+
+.header {
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/football_1280.jpg?raw=true");
+  background-position: center center;
+}

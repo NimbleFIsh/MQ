@@ -1,0 +1,10 @@
+body {
+  min-width: 961px;
+  max-width: 1920px;
+}
+
+.header {
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/football_1920.jpg?raw=true");
+  padding: 2.34375vw 9.47916667vw 5.72916667vw 9.47916667vw;
+  background-position: top center;
+}
