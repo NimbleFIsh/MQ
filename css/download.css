@@ -1,0 +1,80 @@
+.download {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.download_app {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.download_app:after {
+  background-color: #0a0e34;
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.9;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.download_app_content {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.download_app_content_header {
+  display: flex;
+  justify-content: center;
+}
+
+.download_app_header {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.download_app_image_container {
+  align-items: center;
+  background-color: #5536a4;
+  display: flex;
+  justify-content: center;
+}
+
+.download_app_title {
+  color: #a496ca;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.download_apple {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.download_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.download_title {
+  color: #fff;
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}

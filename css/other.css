@@ -1,0 +1,43 @@
+.athlets_number, .players_number, .capabilities_app_number {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.athlets_number:after, .players_number:after, .capabilities_app_number:after {
+  content: '';
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #8f78ca;
+}
+.athlets_number_container, .players_number_container, .capabilities_app_number_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.athlets_number_special:after, .players_number_special:after {
+  background-color: #fff;
+}
+
+.background_button {
+  background-color: #5e3db3;
+  display: flex;
+  align-items: center;
+}
+
+.main_title {
+  text-transform: uppercase;
+  color: #e7e7e7;
+}
+.special_color_01 {
+  color: #fff;
+}
+
+.special_color_02 {
+  color: #8261d6;
+}

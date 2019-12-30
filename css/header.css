@@ -1,0 +1,72 @@
+.header {
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.header:after {
+  background-color: #0a0e34;
+  bottom: 0;
+  content: '';
+  height: 100%;
+  left: 0;
+  opacity: 0.9;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.header_container {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.header_download {
+  flex-direction: column;
+  display: flex;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header_download_apple, .header_download_google {
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.header_download_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_download_header, .header_download_title {
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.header_download_title {
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
+}
+.header_title {
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.header_title_1 {
+  color: #fff;
+}
+
+.header_title_2 {
+  color: #fff;
+  text-transform: uppercase;
+}

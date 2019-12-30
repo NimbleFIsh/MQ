@@ -1,0 +1,55 @@
+.players_collaboration {
+  background-color: #f5f4f9;
+  box-sizing: border-box;
+}
+
+.players_collaboration_header {
+  display: flex;
+}
+
+.players_connection {
+  box-sizing: border-box;
+}
+
+.players_connection_header {
+  display: flex;
+}
+
+.players_container {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+
+.players_container_title {
+  box-sizing: border-box;
+}
+
+.players_growth {
+  background-color: #0a0e34;
+  box-sizing: border-box;
+}
+
+.players_growth_header {
+  display: flex;
+}
+
+.players_number {
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.players_number:after {
+  border-radius: 50vw;
+  box-sizing: border-box;
+  content: '';
+}
+.players_number_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.players_title {
+  color: #c1c1c1;
+  text-transform: uppercase;
+}

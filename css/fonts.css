@@ -25,3 +25,7 @@
   font-style: normal;
   font-weight: bold;
 }
+
+body {
+  font-family: OpenSans-Regular, sans-serif;
+}

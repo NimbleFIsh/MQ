@@ -1,0 +1,36 @@
+.capabilities_app {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.capabilities_app_1, .capabilities_app_2, .capabilities_app_3 {
+  box-sizing: border-box;
+  display: flex;
+}
+
+.capabilities_app_number {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.capabilities_app_number:after {
+  background-color: #8f7bc8;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+.capabilities_app_title {
+  box-sizing: border-box;
+  color: #e7e7e7;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}

@@ -1,0 +1,52 @@
+.athlets_collaboration {
+  background-color: #f5f4f9;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.athlets_collaboration_header {
+  display: flex;
+}
+
+.athlets_connection {
+  background-color: #fafafa;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.athlets_connection_header {
+  display: flex;
+}
+
+.athlets_container {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+
+.athlets_growth {
+  background-color: #5e42b0;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.athlets_growth_header {
+  display: flex;
+}
+
+.athlets_picture {
+  position: absolute;
+}
+
+.athlets_picture_image {
+  position: relative;
+}
+.athlets_text_special {
+  color: #fff;
+}
+
+.athlets_title {
+  color: #c1c1c1;
+  text-transform: uppercase;
+}
