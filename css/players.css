@@ -49,6 +49,16 @@
   flex-direction: column;
 }
 
+.players_picture {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.players_picture_image {
+  position: relative;
+}
+
 .players_title {
   color: #c1c1c1;
   text-transform: uppercase;

@@ -35,6 +35,20 @@
   display: flex;
 }
 
+.athlets_number:after, .players_number:after, .capabilities_app_number:after {
+  content: '';
+  box-sizing: border-box;
+  position: relative;
+  background-color: #5e42b0;
+
+  top: 3px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index: 1;
+}
+
 .athlets_picture {
   position: absolute;
 }

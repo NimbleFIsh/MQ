@@ -9,6 +9,11 @@
   display: flex;
 }
 
+.capabilities_app_container {
+  position: absolute;
+  z-index: 2;
+}
+
 .capabilities_app_number {
   color: #fff;
   display: flex;
@@ -27,10 +32,23 @@
   right: 0;
   top: 0;
 }
+
+.capabilities_app_number_container {
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
 .capabilities_app_title {
   box-sizing: border-box;
   color: #e7e7e7;
   display: flex;
   justify-content: center;
   text-transform: uppercase;
+}
+
+.capabilities_app_image {
+  display: flex;
 }
