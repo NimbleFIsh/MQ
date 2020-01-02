@@ -1,8 +1,80 @@
 body {
   min-width: 320px;
-  max-width: 640;
+  max-width: 640px;
 }
 
 .header {
   background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/football_767.jpg?raw=true");
+}
+
+.header {
+  padding-bottom: 25.625vw;
+}
+
+.header_container {
+  padding-top: 9.375vw;
+}
+
+.header_download {
+  display: flex;
+  flex-direction: column;
+  margin-top: 26.875vw;
+  width: 87.5%;
+}
+
+.header_download_apple {
+  height: 11.25vw;
+  margin-bottom: 3.75vw;
+  padding-left: 25vw;
+}
+
+.header_download_google {
+  padding-left: 26.5vw;
+  height: 11.25vw;
+}
+
+.header_download_header, .header_download_title {
+  font-size: 2.5vw;
+}
+
+.header_download_icon {
+  height: 7.5vw;
+  margin-right: 2.5vw;
+}
+
+.header_logo {
+  height: 11.875vw;
+}
+
+.header_title {
+  flex-direction: column;
+  margin-top: 30vw;
+  width: 87.5vw;
+}
+
+.header_title_1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 8.75vw;
+  padding-bottom: 9.375vw;
+}
+
+.header_title_2 {
+  padding-left: 13.75vw;
+}
+
+.main_title {
+  font-size: 15.625vw;
+}
+
+.br {
+  border-radius: 15.625vw;
+}
+
+.br:after {
+  border-radius: 15.625vw;
+}
+
+.br_1 {
+  border-radius: 6.25vw;
 }

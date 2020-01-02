@@ -50,5 +50,5 @@
 }
 
 .capabilities_app_image {
-  display: flex;
+  width: 100vw;
 }
