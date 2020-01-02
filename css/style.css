@@ -1,8 +1,8 @@
-@import "../css/athlets.css";
-@import "../css/base.css";
-@import "../css/capabilities.css";
-@import "../css/download.css";
-@import "../css/fonts.css";
-@import "../css/header.css";
-@import "../css/other.css";
-@import "../css/players.css";
+@import "../css/main/athlets.css";
+@import "../css/main/base.css";
+@import "../css/main/capabilities.css";
+@import "../css/main/download.css";
+@import "../css/main/fonts.css";
+@import "../css/main/header.css";
+@import "../css/main/other.css";
+@import "../css/main/players.css";
