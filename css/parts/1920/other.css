@@ -1,0 +1,20 @@
+body {
+  min-width: 961px;
+  max-width: 1920px;
+}
+
+.main_title {
+  font-size: 4.16666667vw;
+}
+
+.br {
+  border-radius: 50vw;
+}
+
+.br:after {
+  border-radius: 50vw;
+}
+
+.br_1 {
+  border-radius: 1.77083333vw;
+}
