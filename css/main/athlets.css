@@ -2,6 +2,7 @@
   background-color: #f5f4f9;
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
 }
 
 .athlets_collaboration_header {
@@ -29,6 +30,7 @@
   background-color: #5e42b0;
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
 }
 
 .athlets_growth_header {
@@ -63,4 +65,8 @@
 .athlets_title {
   color: #c1c1c1;
   text-transform: uppercase;
+}
+
+.br:after {
+  margin-top: 1px;
 }

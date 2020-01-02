@@ -1,3 +1,75 @@
 @import "../css/parts/1920/header.css";
 @import "../css/parts/1920/other.css";
 @import "../css/parts/1920/athlets.css";
+
+.athlets_collaboration {
+  padding-left: 52.5vw;
+  padding-top: 3.02083333vw;
+  padding-bottom: 3.07291667vw;
+}
+
+.athlets_collaboration_header {
+  margin-bottom: 1.82291667vw;
+}
+
+.athlets_connection {
+  background-color: #fff;
+  padding-left: 52.5vw;
+  padding-bottom: 3.125vw;
+}
+
+.athlets_connection_header {
+  margin-bottom: 1.5625vw;
+}
+
+.athlets_container {
+  padding-top: 6.04166667vw;
+}
+
+.athlets_container_title {
+  margin-left: 52.5vw;
+  margin-bottom: 5.67708333vw;
+}
+
+.athlets_growth {
+  padding-left: 52.5vw;
+  padding-top: 3.125vw;
+  padding-bottom: 3.125vw;
+}
+
+.athlets_growth_header {
+  margin-bottom: 1.77083333vw;
+}
+
+.athlets_number {
+  padding-top: 5px;
+  font-size: 0.9375vw;
+}
+
+.athlets_number:after {
+  height: 0.208333333vw;
+  width: 1.04166667vw;
+}
+
+.athlets_number_container {
+  margin-right: 0.625vw;
+}
+
+.athlets_picture {
+  bottom: -2.708333vw;
+  left: 18vw;
+}
+
+.athlets_picture_image {
+  width: 32.479167vw;
+}
+
+.athlets_text {
+  font-size: 1.04166667vw;
+  width: 36vw;
+  letter-spacing: 1px;
+}
+
+.athlets_title {
+  font-size: 1.875vw;
+}

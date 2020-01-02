@@ -4,11 +4,11 @@
 }
 
 .header_container {
+  align-items: center;
+  display: flex;
+  height: inherit;
+  justify-content: space-between;
   padding: 4.6875vw 3.90625vw 11.71875vw 3.90625vw;
-}
-
-.header_download {
-  margin-top: 26.104167vw;
 }
 
 .header_download_apple {
@@ -41,8 +41,7 @@
 
 .header_title {
   height: 27.0833333vw;
-  margin-left: 6.51041667vw;
-  margin-top: 23vw;
+  width: 81.25vw;
 }
 
 .header_title_1 {

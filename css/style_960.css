@@ -1,3 +1,7 @@
 @import "../css/parts/960/header.css";
 @import "../css/parts/960/other.css";
 @import "../css/parts/960/athlets.css";
+
+.athlets_connection {
+  background-color: #fff;
+}
