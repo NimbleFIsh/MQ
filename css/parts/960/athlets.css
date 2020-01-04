@@ -1,0 +1,68 @@
+.athlets_connection {
+  background-color: #fff;
+}
+
+.athlets_collaboration {
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding: 5.20833333vw 3.90625vw 6.9vw 33.8541667vw;
+}
+
+.athlets_collaboration_header {
+  align-items: center;
+  line-height: normal;
+  margin-bottom: 4.16666667vw;
+}
+
+.athlets_connection {
+  letter-spacing: 1.4px;
+  line-height: 20px;
+  padding: 0 3.90625vw 2vw 33.8541667vw;
+}
+
+.athlets_connection_header {
+  align-items: center;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 3.25520833vw;
+}
+
+.athlets_container_title {
+  margin: 10.41661vw 3.90625vw 0 33.8541667vw;
+}
+
+.athlets_growth {
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding: 5.20833333vw 3.90625vw 4.94791667vw 33.8541667vw;
+}
+
+.athlets_growth_header {
+  align-items: center;
+  line-height: normal;
+  margin-bottom: 4.16666667vw;
+}
+
+.athlets_number {
+  font-size: 2.34375vw;
+}
+
+.athlets_picture {
+  left: -26.708333vw;
+  top: -1.875vw;
+  width: 42.416667vw;
+}
+
+.athlets_picture_image {
+  width: 160%;
+}
+
+.athlets_text {
+  font-size: 2.08333333vw;
+  letter-spacing: 2px;
+}
+
+.athlets_title {
+  font-size: 4.16666667vw;
+  height: 3.90625vw;
+}
