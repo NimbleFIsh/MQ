@@ -1,0 +1,61 @@
+.players_collaboration {
+  padding: 3.125vw 0 4.63541667vw 9.375vw;
+}
+
+.players_collaboration_header {
+  margin-bottom: 2.23958333vw;
+}
+
+.players_connection {
+  padding-bottom: 3.125vw;
+  padding-left: 9.375vw;
+}
+
+.players_connection_header {
+  margin-bottom: 1.875vw;
+}
+
+.players_container {
+  padding-top: 6.09375vw;
+}
+
+.players_container_title {
+  margin-bottom: 5.67708333vw;
+  padding-left: 9.375vw;
+}
+
+.players_growth {
+  padding: 3.02083333vw 0 3.125vw 9.375vw;
+}
+
+.players_growth_header {
+  margin-bottom: 1.82291667vw;
+}
+
+.players_number {
+  font-size: 0.9375vw;
+  padding-top: 5px;
+}
+
+.players_number_container {
+  margin-right: 0.625vw;
+}
+
+.players_picture {
+  right: 9.333333vw;
+  top: 3.770833vw;
+}
+
+.players_picture_image {
+  width: 51.6145833vw;
+}
+
+.players_text {
+  font-size: 1.04166667vw;
+  letter-spacing: 1px;
+  width: 39.2708333vw;
+}
+
+.players_title {
+  font-size: 1.875vw;
+}

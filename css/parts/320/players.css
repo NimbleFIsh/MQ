@@ -1,0 +1,61 @@
+.players_collaboration {
+  letter-spacing: 0;
+  padding: 18.75vw 6.25vw 17.1875vw 6.25vw;
+}
+
+.players_collaboration_header {
+  padding-bottom: 8.75vw;
+}
+
+.players_connection {
+  background-color: #fafafa;
+  letter-spacing: 0;
+  padding: 25vw 6.25vw 17.1875vw 6.25vw;
+}
+
+.players_connection_header {
+  padding-bottom: 8.75vw;
+}
+
+.players_container {
+  letter-spacing: 1px;
+  padding-bottom: 0;
+  padding-top: 6.25vw;
+}
+
+.players_container_title {
+  margin-bottom: 70vw;
+  padding-left: 6.25vw;
+  padding-right: 6.25vw;
+}
+
+.players_growth {
+  padding: 17.1875vw 6.25vw 10vw 6.25vw;
+}
+
+.players_growth_header {
+  padding-bottom: 8.75vw;
+}
+
+.players_number {
+  font-size: 4.375vw;
+  height: 5.625vw;
+  margin-right: 2.8125vw;
+}
+
+.players_picture_image {
+  height: 75vw;
+}
+
+.players_picture {
+  width: 100vw;
+  top: 9%;
+}
+
+.players_text {
+  font-size: 4.6875vw;
+}
+
+.players_title {
+  font-size: 7.1875vw;
+}
