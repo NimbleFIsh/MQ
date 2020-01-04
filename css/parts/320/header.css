@@ -1,19 +1,14 @@
 .header {
   background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/football_767.jpg?raw=true");
-}
-
-.header {
-  padding-bottom: 25.625vw;
-}
-
-.header_container {
+  background-position: center center;
   padding-top: 9.375vw;
+  padding-bottom: 25.625vw;
 }
 
 .header_download {
   display: flex;
   flex-direction: column;
-  margin-top: 26.875vw;
+  /* margin-top: 26.875vw; */
   width: 87.5%;
 }
 
@@ -43,7 +38,7 @@
 
 .header_title {
   flex-direction: column;
-  margin-top: 30vw;
+  /* margin-top: 30vw; */
   width: 87.5vw;
 }
 

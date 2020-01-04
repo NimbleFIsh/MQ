@@ -10,8 +10,8 @@
 
 .header_title {
   letter-spacing: 1px;
-  margin-bottom: 11.4583333vw;
-  margin-top: 15.1041667vw;
+  /* margin-bottom: 11.4583333vw;
+  margin-top: 15.1041667vw; */
   width: max-content;
 }
 
@@ -27,6 +27,7 @@
   font-size: 4.6875vw;
   margin-left: 25vw;
 }
+
 .header_download_apple {
   height: 4.0625vw;
   margin-right: 2.60416667vw;

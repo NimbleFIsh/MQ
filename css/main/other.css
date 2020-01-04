@@ -7,12 +7,13 @@
 .athlets_number:after, .players_number:after, .capabilities_app_number:after {
   content: '';
   position: relative;
+  height: 0.27vw;
   z-index: 1;
   box-sizing: border-box;
-  top: 0;
-  right: 0;
   bottom: 0;
   left: 0;
+  right: 0;
+  top: 0;
   background-color: #8f78ca;
 }
 .athlets_number_container, .players_number_container, .capabilities_app_number_container {

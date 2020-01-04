@@ -1,13 +1,6 @@
 .header {
   background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/football_1280.jpg?raw=true");
   background-position: center center;
-}
-
-.header_container {
-  align-items: center;
-  display: flex;
-  height: inherit;
-  justify-content: space-between;
   padding: 4.6875vw 3.90625vw 11.71875vw 3.90625vw;
 }
 
