@@ -1,7 +1,6 @@
 .download {
   color: #fff;
   display: flex;
-  flex-direction: column;
   text-transform: uppercase;
 }
 
