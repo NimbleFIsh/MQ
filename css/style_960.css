@@ -4,3 +4,74 @@
 @import "../css/parts/960/players.css";
 @import "../css/parts/960/capabilities.css";
 @import "../css/parts/960/footer.css";
+
+.download {
+  margin-top: 37.109375vw;
+  margin-bottom: 6.51vw;
+}
+
+.download_app {
+  height: 124.088542vw;
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/game_1280.jpg?raw=true");
+}
+
+.download_app_content {
+  padding-top: 15.625vw;
+  padding-bottom: 2vw;
+}
+
+.download_app_content_header {
+  display: contents;
+}
+
+.download_app_header {
+  font-size: 10.4166667vw;
+  letter-spacing: 3px;
+}
+
+.download_app_image {
+  width: 13.671875vw;
+}
+
+.download_app_image_container {
+  width: 17.7083333vw;
+  height: 17.7083333vw;
+  margin-bottom: 10.4166667vw;
+}
+
+.download_app_title {
+  letter-spacing: 0;
+  font-size: 4.6875vw;
+}
+
+.download_apple {
+  height: 9.765625vw;
+  width: 40.3645833vw;
+  padding-left: 6.0956098vw;
+  margin-right: 3.64583333vw;
+}
+
+.download_google {
+  height: 9.765625vw;
+  width: 40.3645833vw;
+  padding-left: 7.16145833vw;
+}
+
+.download_header {
+  letter-spacing: 1px;
+  font-size: 1.8229667vw;
+}
+
+.download_icon {
+  height: 6.51041667vw;
+  margin-right: 3.25520833vw;
+}
+
+.download_title {
+  letter-spacing: 1px;
+  font-size: 1.8229667vw;
+}
+
+.footer_logo {
+  height: 7.55208333vw;
+}
