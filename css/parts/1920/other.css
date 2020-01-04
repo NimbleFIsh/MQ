@@ -15,3 +15,37 @@
 .br_1 {
   border-radius: 1.77083333vw;
 }
+
+.special_app_number_container {
+  position: absolute;
+  margin-left: 36.25vw;
+}
+
+.special_app_text {
+  margin: 0;
+  width: 33.020833vw;
+}
+
+.special_app_text_01 {
+  width: 32.020833vw;
+}
+
+.special_dk_t1 {
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 30vw;
+}
+
+.special_dk_t2 {
+  margin: 0;
+}
+
+.sp_pic_2 {
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.special_app_text {
+  margin-left: 2.041667vw;
+}

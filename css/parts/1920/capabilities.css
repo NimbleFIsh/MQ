@@ -1,0 +1,58 @@
+.capabilities_app_1, .capabilities_app_2, .capabilities_app_3 {
+  position: relative;
+}
+
+.capabilities_app_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.capabilities_app_number {
+  font-size: 1.25vw;
+}
+
+.capabilities_app_number:after {
+  height: 0.208333333vw;
+  width: 1.4vw;
+}
+
+.capabilities_app_number_container {
+  height: 8.02083333vw;
+  width: 8.02083333vw;
+}
+
+.cpa_1 {
+  padding: 10.9895833vw 12.3130208vw 7.5vw 45.625vw;
+}
+
+.cpa_2 {
+  padding: 10.9895833vw 0 12.2vw 9.375vw;
+  width: 36.4583333vw;
+}
+
+.cpa_3 {
+  padding: 10.9895833vw 0 10.7vw 45.625vw;
+}
+
+.capabilities_app_text {
+  font-size: 1.25vw;
+  letter-spacing: 1px;
+  margin-left: 10.041667vw;
+  width: 31.020833vw;
+}
+
+.capabilities_app_title {
+  align-items: center;
+  font-size: 4.16666667vw;
+  height: 8.02083333vw;
+  margin-bottom: 3.90625vw;
+  margin-left: 2.041667vw;
+}
+
+.capabilities_app_picture {
+  position: relative;
+}
+
+.capabilities_app_image {
+  width: 50vw;
+}

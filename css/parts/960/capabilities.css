@@ -1,0 +1,38 @@
+.capabilities_app_container {
+  display: flex;
+  flex-direction: column;
+  padding: 68.364583vw 3.90625vw 13.0208333vw 3.90625vw;
+  position: relative;
+  z-index: 2;
+}
+
+.capabilities_app_number {
+  font-size: 3.125vw;
+}
+
+.capabilities_app_number:after {
+  height: 0.520833333vw;
+  margin-top: 0.260416667vw;
+  width: 3.64583333vw;
+}
+
+.capabilities_app_number_container {
+  height: 14.9739583vw;
+  margin-bottom: 6.77083333vw;
+  width: 14.9739583vw;
+}
+
+.capabilities_app_text {
+  font-size: 3.125vw;
+  letter-spacing: 1.6px;
+}
+
+.capabilities_app_title {
+  justify-content: flex-start;
+  font-size: 10.4166667vw;
+  margin-bottom: 4.94791667vw;
+}
+
+.capabilities_app_picture {
+  position: absolute;
+}
