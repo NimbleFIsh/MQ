@@ -49,16 +49,8 @@
 }
 
 .athlets_number {
-  height: 5.625vw;
   font-size: 4.375vw;
   margin-right: 2.8125vw;
-}
-
-.athlets_number:after, .players_number:after, .capabilities_app_number:after {
-  width: 17px;
-  height: 4px;
-
-  margin-top: 18px;
 }
 
 .athlets_picture {

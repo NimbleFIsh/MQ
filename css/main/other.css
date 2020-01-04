@@ -7,7 +7,7 @@
 .athlets_number:after, .players_number:after, .capabilities_app_number:after {
   content: '';
   position: relative;
-  height: 0.27vw;
+  width: 100%;
   z-index: 1;
   box-sizing: border-box;
   bottom: 0;

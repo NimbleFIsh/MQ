@@ -12,6 +12,8 @@ body {
 
 .br:after {
   border-radius: 15.625vw;
+  height: 0.9vw;
+  margin-top: 0.3125vw;
 }
 
 .br_1 {

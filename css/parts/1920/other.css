@@ -8,6 +8,8 @@
 
 .br:after {
   border-radius: 50vw;
+  height: 0.27vw;
+  margin-top: 0.104166667vw;
 }
 
 .br_1 {

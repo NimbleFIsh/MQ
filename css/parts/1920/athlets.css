@@ -38,10 +38,6 @@
   font-size: 0.9375vw;
 }
 
-.athlets_number:after {
-  width: 100%;
-}
-
 .athlets_number_container {
   margin-right: 0.625vw;
 }
