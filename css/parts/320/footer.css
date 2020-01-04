@@ -1,0 +1,73 @@
+.download {
+  width: 100%;
+}
+
+.download_app {
+  background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/game_767.jpg?raw=true");
+  padding-bottom: 5px;
+}
+
+.download_app_content {
+  align-items: center;
+  display: flex;
+  height: 180vw;
+  justify-content: space-between;
+  padding: 30.625vw 6.25vw 10vw 6.25vw;
+}
+
+.download_app_content_header {
+  align-items: center;
+  flex-direction: column;
+}
+
+.download_app_header {
+  font-size: 10vw;
+  letter-spacing: 1px;
+}
+
+.download_app_image {
+  height: 15vw;
+}
+
+.download_app_image_container {
+  height: 22.5vw;
+  margin-bottom: 17.5vw;
+  width: 21.875vw;
+}
+
+.download_app_title {
+  font-size: 4.375vw;
+}
+
+.download_apple {
+  display: flex;
+  height: 10.625vw;
+  justify-content: center;
+  margin-bottom: 3.125vw;
+}
+
+.download_google {
+  display: flex;
+  height: 10.625vw;
+  justify-content: center;
+  padding-right: 8vw;
+}
+
+.download_header {
+  font-family: OpenSans-Regular-2, sans-serif;
+  font-size: 2.5vw;
+  letter-spacing: 1px;
+}
+
+.download_icon {
+  height: 7.5vw;
+  margin-right: 2.5vw;
+}
+
+.download_title {
+  font-size: 2.5vw;
+}
+
+.footer_logo {
+  height: 11.875vw;
+}
