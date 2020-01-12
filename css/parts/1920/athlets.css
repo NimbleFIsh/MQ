@@ -35,11 +35,8 @@
 
 .athlets_number {
   padding-top: 5px;
-  font-size: 0.9375vw;
-}
-
-.athlets_number_container {
   margin-right: 0.625vw;
+  font-size: 0.9375vw;
 }
 
 .athlets_picture {

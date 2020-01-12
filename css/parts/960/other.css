@@ -17,10 +17,6 @@
   border-radius: 5vw;
 }
 
-.athlets_number_container, .players_number_container, .capabilities_app_number_container {
-  height: 3.25520833vw;
-  margin-right: 1.04166667vw;
-}
 .athlets_text_special_1, .athlets_text_special  {
   height: 40px;
 }

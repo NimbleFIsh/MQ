@@ -29,10 +29,9 @@
   margin-bottom: 3.90625vw;
 }
 
-.players_number:after {
-  height: 0.52083333vw;
-  margin-top: 0.260416667vw;
-  width: 2.21354167vw;
+.players_number {
+  font-size: 2.34375vw;
+  margin-right: 1vw;
 }
 
 .players_picture {
