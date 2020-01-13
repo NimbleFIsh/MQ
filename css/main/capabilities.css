@@ -7,6 +7,7 @@
 .capabilities_app_1, .capabilities_app_2, .capabilities_app_3 {
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
 }
 
 .capabilities_app_container {
