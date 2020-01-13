@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.capabilities_app_picture {
+  width: inherit;
+}
+
 .capabilities_app_container {
   display: flex;
   flex-wrap: wrap;
