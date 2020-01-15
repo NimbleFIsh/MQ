@@ -41,13 +41,12 @@
 }
 
 .sp_pic_2 {
-  width: 98.8vw;
   display: flex;
   flex-direction: row-reverse;
 }
 
 .sp_pic_2 > .capabilities_app_image {
-  width: 48.8vw;
+  width: 50%;
 }
 
 .special_app_text {

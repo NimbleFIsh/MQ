@@ -1,6 +1,6 @@
 .download_app {
   background-image: url("https://github.com/NimbleFIsh/MQ/blob/master/img/game_1920.jpg?raw=true");
-  background-size: contain;
+  /* background-size: contain; */
   padding-bottom: 2.55208333vw;
   padding-top: 11.8229167vw;
 }
