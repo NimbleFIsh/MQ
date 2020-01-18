@@ -40,15 +40,6 @@
   margin: 0;
 }
 
-.sp_pic_2 {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.sp_pic_2 > .capabilities_app_image {
-  width: 50%;
-}
-
 .special_app_text {
   margin-left: 2.041667vw;
 }

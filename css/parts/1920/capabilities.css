@@ -1,5 +1,6 @@
 .capabilities_app_1, .capabilities_app_2, .capabilities_app_3 {
   position: relative;
+  flex-direction: row;
 }
 
 .capabilities_app_container {
@@ -51,8 +52,19 @@
 
 .capabilities_app_picture {
   height: 33.3vw;
+  width: 50%;
+}
+
+.sp_pic_2 {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
 }
 
 .capabilities_app_image {
+  width: 100%;
+}
+
+.sp_pic_2 > .capabilities_app_image {
   width: 50%;
 }

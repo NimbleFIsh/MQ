@@ -1,6 +1,6 @@
 .capabilities_app_1, .capabilities_app_2, .capabilities_app_3 {
   display: block;
-  flex-direction: row;
+  flex-direction: column;
 }
 .capabilities_app_container {
   display: flex;
@@ -17,7 +17,7 @@
 
 .capabilities_app_number_container {
   height: 14.9739583vw;
-  margin-bottom: 6.77083333vw;
+  /* margin-bottom: 6.77083333vw; */
   width: 14.9739583vw;
   position: relative;
   top: -12vw;
