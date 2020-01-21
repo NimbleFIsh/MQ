@@ -1,6 +1,11 @@
-.capabilities_app_1, .capabilities_app_2, .capabilities_app_3 {
+.capabilities_app_1, .capabilities_app_3 {
   position: relative;
   flex-direction: row;
+}
+
+.capabilities_app_2 {
+  position: relative;
+  flex-direction: row-reverse;
 }
 
 .capabilities_app_container {
@@ -20,51 +25,46 @@
 .capabilities_app_number_container {
   height: 8.02083333vw;
   width: 8.02083333vw;
+  position: relative;
+  top: 10.9895833vw;
+  right: 4vw;
 }
 
-.cpa_1 {
-  padding: 10.9895833vw 12.3130208vw 7.5vw 45.625vw;
+.cpa_1, .cpa_3 {
+  width: 50%;
 }
 
 .cpa_2 {
-  padding: 10.9895833vw 0 12.2vw 9.375vw;
-  width: 36.4583333vw;
-}
-
-.cpa_3 {
-  padding: 10.9895833vw 0 10.7vw 45.625vw;
+  width: 45%;
 }
 
 .capabilities_app_text {
   font-size: 1.25vw;
+  width: 32vw;
   letter-spacing: 1px;
-  margin-left: 9vw;
-  width: 31.020833vw;
+  margin-left: 5vw;
 }
 
 .capabilities_app_title {
   align-items: center;
+  position: relative;
   font-size: 4.16666667vw;
-  height: 8.02083333vw;
-  margin-bottom: 3.90625vw;
-  margin-left: 2.041667vw;
+  top: 12vw;
+  right: 3vw;
+  height: fit-content;
 }
 
 .capabilities_app_picture {
-  height: 33.3vw;
+  position: relative;
+  height: 32.9vw;
   width: 50%;
 }
 
 .sp_pic_2 {
   display: flex;
-  width: 100%;
-  flex-direction: row-reverse;
+  width: 50%;
 }
 
 .capabilities_app_image {
   width: 100%;
-}
-
-.sp_pic_2 > .capabilities_app_image {
-  width: 50%;
 }

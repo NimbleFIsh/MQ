@@ -17,17 +17,11 @@
 }
 
 .special_app_number_container {
-  position: absolute;
-  margin-left: 36.25vw;
+  left: 45vw;
 }
 
-.special_app_text {
-  margin: 0;
-  width: 33.020833vw;
-}
-
-.special_app_text_01 {
-  width: 32.020833vw;
+.cpa_3 > p {
+  width: 33vw;
 }
 
 .special_dk_t1 {
@@ -42,4 +36,24 @@
 
 .special_app_text {
   margin-left: 2.041667vw;
+}
+
+.cpa_2 > h2 {
+  align-items: center;
+  font-size: 4.16666667vw;
+  height: 8.02083333vw;
+  /* margin-bottom: 3.90625vw; */
+  top: 9vw;
+  margin-left: 5.041667vw;
+  position: relative;
+}
+
+.cpa_2 > div {
+  position: absolute;
+}
+
+.cpa_2 > p {
+  margin-left: 2.041667vw;
+  margin-bottom: 0;
+  width: 33vw;
 }
