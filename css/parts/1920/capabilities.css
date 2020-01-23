@@ -25,9 +25,9 @@
 .capabilities_app_number_container {
   height: 8.02083333vw;
   width: 8.02083333vw;
-  position: relative;
+  position: absolute;
   top: 10.9895833vw;
-  right: 4vw;
+  left: 45.3vw;
 }
 
 .cpa_1, .cpa_3 {
@@ -49,9 +49,10 @@
   align-items: center;
   position: relative;
   font-size: 4.16666667vw;
-  top: 12vw;
+  top: 10vw;
   right: 3vw;
   height: fit-content;
+  margin-left: 8vw;
 }
 
 .capabilities_app_picture {

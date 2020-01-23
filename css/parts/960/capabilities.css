@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  padding-top: 5vw;
   padding-left: 5vw;
   padding-bottom: 7vw;
   z-index: 2;
@@ -19,7 +20,7 @@
   height: 14.9739583vw;
   /* margin-bottom: 6.77083333vw; */
   width: 14.9739583vw;
-  position: relative;
+  position: absolute;
   top: -12vw;
 }
 
