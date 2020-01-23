@@ -10,7 +10,9 @@
 
 .capabilities_app_container {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  /* justify-content: center; */
 }
 
 .capabilities_app_number {
@@ -32,27 +34,30 @@
 
 .cpa_1, .cpa_3 {
   width: 50%;
+  box-sizing: border-box;
+  padding: 11vw 10vw 1vw 5vw;
 }
 
 .cpa_2 {
   width: 45%;
+  box-sizing: border-box;
+  padding: 11vw 6vw 1vw 4vw;
 }
 
 .capabilities_app_text {
   font-size: 1.25vw;
   width: 32vw;
   letter-spacing: 1px;
-  margin-left: 5vw;
+  margin-top: 3vw;
+  /* margin-left: 5vw; */
 }
 
 .capabilities_app_title {
   align-items: center;
-  position: relative;
   font-size: 4.16666667vw;
-  top: 10vw;
+  /* top: 10vw;
   right: 3vw;
-  height: fit-content;
-  margin-left: 8vw;
+  margin-left: 5vw; */
 }
 
 .capabilities_app_picture {
@@ -68,4 +73,5 @@
 
 .capabilities_app_image {
   width: 100%;
+  height: inherit;
 }
